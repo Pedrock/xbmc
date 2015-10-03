@@ -17,6 +17,10 @@ Os bugs e novas funcionalidades são geridas através de um site do kodi utiliza
 
 Para resolver um bug ou adicionar uma funcionalidade, um utilizador do github deve criar um fork, alterar o código necessário e fazer um pull request. A equipa responsável pelo kodi com direitos de aceitar pull requests então verifica o que foi alterado, e se aceitarem, usam um bot para testar a build do projeto nas várias plataformas e fazer merge no branch master se não tiverem ocorridos problemas durante a compilação.
 
-A equipa do Kodi atribui um nome e várias funcionalidades e correções de bug a cada versão *major*. Temos por exemplo, a versão 15.0 com o nome Isengard. Quando tudo se encontra terminado, lançam versões Beta e Release Candidate para serem testadas pelos utilizadores antes da versão final. Se mais tarde forem encontrados bugs são lançadas versões *bugfix release*, como por exemplo a versão 15.1.
+A equipa do Kodi atribui um nome e várias funcionalidades e correções de bug a cada versão *major*. Temos por exemplo, a versão 15.0 com o nome Isengard. Quando tudo se encontra terminado, fazem um *feature freze*, em que não são adicionadas mais funcionalidades ao código, e lançam versões Beta e Release Candidate para serem testadas pelos utilizadores antes da versão final e corrigir o maior número de bugs possíveis. Se mais tarde forem encontrados bugs são lançadas versões *bugfix release*, como por exemplo a versão 15.1.
+
+Para além disto, também existem compilações diárias (*nightly*) e mensais.
+
+Apesar de este projeto não ter uma metodologia de desenvolvimento bem definida, como a maior parte dos projetos open-source, consideramos que segue o modelo Agile. Isto porque existe uma boa comunição entre os desenvolvedores, através do fórum, do github, do blog e reuniões e porque vão sendo lançadas várias versões estáveis ao longo do tempo, cada vez com mais funcionalidades. Também existe uma preocupação em receber *feedback* de parte dos utilizadores. Para além disto, o software encontra-se bem modularizado e uma das preocupações do projeto é manter o código simples, elegante e fácil de manter.
 
 ## Análise Crítica
