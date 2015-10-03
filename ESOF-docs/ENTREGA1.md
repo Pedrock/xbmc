@@ -1,13 +1,17 @@
 # Relatório 1
 
-## Descrição
+## Kodi
+
+### Descrição
 
 O Kodi Entertainment Center, ou simplesmente Kodi (anteriormente XBMC) é um projeto multiplataforma gratuito desenvolvido pela XBMC Foundation com vários colaboradores localizados por todo mundo, comunicando online através do Github. 
+
+![Kodi - Image](http://kodi.tv/wp-content/uploads/kodi_about.jpg)
 
 Kodi permite aos utilizadores ver filmes, musica e fotografias através da sua interface elegante e fácil de usar. É um media center que tem como objetivo ser utilizado numa televisão na sala de estar. Além disto, a plataforma permite o uso de inúmeros add-ons, que permitem adicionar novas funcionalidades ao programa, tais como ir buscar media a sites externos, como ao Youtube, por exemplo. Estes add-ons são atualizados automaticamente pelo programa pelo uso de repositórios. Os add-ons são desenvolvidos na linguagem Python, enquanto que o programa é desenvolvido maioritariamente em C e C++.
 
 
-## Processo
+### Processo
 
 O Kodi é constituído por uma grande comunidade.
 
@@ -23,7 +27,7 @@ Para além disto, também existem compilações diárias (*nightly builds*) e me
 
 Apesar de este projeto não ter uma metodologia de desenvolvimento bem definida, como a maior parte dos projetos open-source, consideramos que segue o modelo *Agile*. Isto porque existe uma boa comunição entre os desenvolvedores, através do fórum, do github, do blog e reuniões e porque vão sendo lançadas várias versões estáveis ao longo do tempo, cada vez com mais funcionalidades. Também existe uma preocupação em receber *feedback* de parte dos utilizadores. Para além disto, o software encontra-se bem modularizado e uma das preocupações do projeto é manter o código simples, elegante e fácil de manter.
 
-## Análise Crítica
+### Análise Crítica
 
 Após a análise do projeto, consideramos que, para um projeto open-source e com tantas plataformas suportadas, está bem estruturado e organizado. Passados vários anos após o início do desenvolvimento, vai suportanto novas plataformas e abandonando outras já obsoletas, enquanto que cada vez mais funcionalidades vão sendo adicionadas. Para além disto, o software também se tem tornado mais estável e fácil de usar. Isto deve-se ao empenho da fundação, sem fins lucrativos, e dos desenvolvedores, que contribuem voluntáriamente de forma a melhorar este *software*.
 
