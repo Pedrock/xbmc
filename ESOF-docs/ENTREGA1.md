@@ -1,4 +1,4 @@
-# Relatório 1
+# Relatório ESOF - 1
 
 ## Kodi
 
@@ -15,13 +15,13 @@ Kodi permite aos utilizadores ver filmes, musica e fotografias através da sua i
 
 O Kodi é constituído por uma grande comunidade.
 
-Atualmente, a equipa de gestão do Kodi é constituída por 5 pessoas. Para além destes, existem 3 gestores de projeto, algumas dezenas de programadores divididos em várias categorias (geral ou por plataforma) e alguns artistas e *testers*. A equipa de gestão é votada pela comunidade, sendo a maior parte também desenvolvedores do Kodi. Apenas alguns dos programadores conseguém fazer commits ou aceitar pull requests. Os utilizadores podem submeter bugs que depois são analizados e corrigidos pelos programadores, ou submeter ideias que depois são analizadas pela comunidade, sendo aceites ou não.
+Atualmente, o conselho de administração da XBMC Foundation é constituído por 5 pessoa, eleitas pela comunidade. Para além destes, existe um *release manager* eleito para cada *release*, geralmente um membro senior. Contribuem também algumas dezenas de programadores divididos em várias categorias (geral ou por plataforma) e alguns artistas e *testers*. Apenas alguns dos programadores conseguém fazer commits ou aceitar pull requests. Os utilizadores podem submeter bugs que depois são analizados e corrigidos pelos programadores, ou submeter ideias que depois são analizadas pela comunidade, sendo aceites ou não.
 
 Os bugs e novas funcionalidades são geridas através de um site do kodi utilizado para o efeito: [Kodi - Trac](http://trac.kodi.tv/).
 
 Para resolver um bug ou adicionar uma funcionalidade, um utilizador do github deve criar um fork, alterar o código necessário e fazer um pull request. A equipa responsável pelo kodi com direitos de aceitar pull requests então verifica o que foi alterado, e se aceitarem, usam um bot para testar a build do projeto nas várias plataformas e fazer merge no branch master se não tiverem ocorridos problemas durante a compilação.
 
-A equipa do Kodi atribui um nome e várias funcionalidades e correções de bug a cada versão *major*. Temos por exemplo, a versão 15.0 com o nome Isengard. Quando tudo se encontra terminado, fazem um *feature freze*, em que não são adicionadas mais funcionalidades ao código, e lançam versões *Beta* e *Release Candidate* para serem testadas pelos utilizadores antes da versão final e corrigir o maior número de bugs possíveis. Se mais tarde forem encontrados bugs são lançadas versões *bugfix release*, como por exemplo a versão 15.1.
+A equipa do Kodi atribui um nome e várias funcionalidades e correções de bug a cada versão *major*. Temos por exemplo, a versão 15.0 com o nome Isengard. Quando tudo se encontra terminado, o *Release Manager* faz um *feature freze*, em que não são adicionadas mais funcionalidades ao código, e decide quando lançar as versões *Beta* e *Release Candidate* para serem testadas pelos utilizadores antes da versão final e corrigir o maior número de bugs possíveis. Quando a versão se encontra estável, é lançada a versão final. Se mais tarde forem encontrados bugs são lançadas versões *bugfix release*, como por exemplo a versão 15.1.
 
 Para além disto, também existem compilações diárias (*nightly builds*) e mensais (*monthly builds*).
 
