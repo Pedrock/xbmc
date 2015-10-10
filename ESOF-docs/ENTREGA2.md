@@ -12,6 +12,7 @@
   - Ser capaz de organizar arquivos de áudio e vídeo de uma forma simples
   - Executar ações na GUI com o mínimo de cliques possíveis
   - Ser destinado a um público internacional
+  - Apelativo ao olhar
   
   
   No entanto, os verdadeiros "génios" que fazem com que o kodi cresça e evolua são os *stakeholders*.
