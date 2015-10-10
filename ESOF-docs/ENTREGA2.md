@@ -33,8 +33,9 @@ Os passos para a submissão apropriada de bugs encontram-se em [Kodi - Bugs](htt
 
 As ideias para novas funcionalidades, caso os desenvolvedores as achem oportunas, podem resultar em debates entre usuários e desenvolvedores, que decorrem no fórum. Antes de fazer qualquer solicitação de  alguma funcionalidade é importante primeiro visitar a página [Kodi - Feature Requests](http://forum.kodi.tv/forumdisplay.php?fid=9), para garantir que essa nova funcionalidade já não tenha sido solicitada, de modo a não existirem ideias repetidas. 
 
+### Análise de Requirimentos e Negociação
 
-
+### Especificação de Requirimentos
 
 ### Validação de Requisitos
 
