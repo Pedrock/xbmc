@@ -13,10 +13,10 @@
   - Executar ações na GUI com o mínimo de cliques possíveis
   - Ser destinado a um público internacional
   - Apelativo ao olhar
-  
-  
-  No entanto, os verdadeiros "génios" que fazem com que o kodi cresça e evolua são os *stakeholders*.
-  O Kodi é bastante dependente dos seus usuários, são especialmente eles que contribuem para uma evolução contínua do media center, relatando bugs e propondo novas funcionalidades. Por isso, muitas das correções e acréscimos são devidos aos usuários.
+
+
+No entanto, os verdadeiros "génios" que fazem com que o kodi cresça e evolua são os *stakeholders*.
+O Kodi é bastante dependente dos seus usuários, são especialmente eles que contribuem para uma evolução contínua do media center, relatando bugs e propondo novas funcionalidades. Por isso, muitas das correções e acréscimos são devidos aos usuários.
 
 ### Validação de Requisitos
 
