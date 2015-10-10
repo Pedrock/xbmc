@@ -16,7 +16,25 @@
 
 
 No entanto, os verdadeiros "génios" que fazem com que o kodi cresça e evolua são os *stakeholders*.
-O Kodi é bastante dependente dos seus usuários, são especialmente eles que contribuem para uma evolução contínua do media center, relatando bugs e propondo novas funcionalidades. O ambiente de interação entre a equipa do Kodi e os seus usuários é o forúm. É aqui que a comunicaçao entre os desenvolvedores e o "ambiente exterior" acontece. Os usuários podem tirar dúvidas, relatar erros ou solicitar novas funcionalidades. Aos usuários que relatam erros relevantes é-lhes pedido que forneçam um registo de modo a que o problema possa ser rastreado. E aquando de ideias de novas funcionalidades, caso os desenvolvedores as achem oportunas, podem resultar em debates entre usuários e desenvolvedores. 
+O Kodi é bastante dependente dos seus usuários, são especialmente eles que contribuem para uma evolução contínua do media center, relatando bugs e propondo novas funcionalidades. O ambiente de interação entre a equipa do Kodi e os seus usuários é o forúm. É aqui que a comunicaçao entre os desenvolvedores e o "ambiente exterior" acontece. Os usuários podem tirar dúvidas, submeter bugs que depois são analizados e corrigidos pelos programadores, ou submeter ideias que depois são analizadas pela comunidade, sendo aceites ou não. Para participar nos foruns de discossão é necessário registar-se em [Kodi - Register](http://forum.kodi.tv/member.php?action=register).
+
+
+Os bugs e novas funcionalidades são geridas através de um site do kodi utilizado para o efeito: [Kodi - Trac](http://trac.kodi.tv/).
+
+
+#### Bugs
+
+Aos usuários que relatam erros é-lhes pedido que forneçam um relatório especifico de modo a que o problema possa ser rastreado.
+Os passos para a submissão apropriada de bugs encontram-se em [Kodi - Bugs](http://kodi.wiki/view/HOW-TO:Submit_a_bug_report).
+
+(diagrama ds bugs)
+
+#### Solicitação de Novas Funcionalidades
+
+As ideias para novas funcionalidades, caso os desenvolvedores as achem oportunas, podem resultar em debates entre usuários e desenvolvedores, que decorrem no fórum. Antes de fazer qualquer solicitação de  alguma funcionalidade é importante primeiro visitar a página [Kodi - Feature Requests](http://forum.kodi.tv/forumdisplay.php?fid=9), para garantir que essa nova funcionalidade já não tenha sido solicitada, de modo a não existirem ideias repetidas. 
+
+
+
 
 ### Validação de Requisitos
 
