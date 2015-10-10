@@ -16,7 +16,7 @@
 
 
 No entanto, os verdadeiros "génios" que fazem com que o kodi cresça e evolua são os *stakeholders*.
-O Kodi é bastante dependente dos seus usuários, são especialmente eles que contribuem para uma evolução contínua do media center, relatando bugs e propondo novas funcionalidades. Por isso, muitas das correções e acréscimos são devidos aos usuários.
+O Kodi é bastante dependente dos seus usuários, são especialmente eles que contribuem para uma evolução contínua do media center, relatando bugs e propondo novas funcionalidades. O ambiente de interação entre a equipa do Kodi e os seus usuários é o forúm. É aqui que a comunicaçao entre os desenvolvedores e o "ambiente exterior" acontece. Os usuários podem tirar dúvidas, relatar erros ou solicitar novas funcionalidades. Aos usuários que relatam erros relevantes é-lhes pedido que forneçam um registo de modo a que o problema possa ser rastreado. E aquando de ideias de novas funcionalidades, caso os desenvolvedores as achem oportunas, podem resultar em debates entre usuários e desenvolvedores. 
 
 ### Validação de Requisitos
 
