@@ -27,11 +27,11 @@ Os bugs e novas funcionalidades são geridas através de um site do kodi utiliza
 Aos usuários que relatam erros é-lhes pedido que forneçam um relatório especifico de modo a que o problema possa ser rastreado.
 Os passos para a submissão apropriada de bugs encontram-se em [Kodi - Bugs](http://kodi.wiki/view/HOW-TO:Submit_a_bug_report).
 
-(diagrama ds bugs)
-
 #### Solicitação de Novas Funcionalidades
 
 As ideias para novas funcionalidades, caso os desenvolvedores as achem oportunas, podem resultar em debates entre usuários e desenvolvedores, que decorrem no fórum. Antes de fazer qualquer solicitação de  alguma funcionalidade é importante primeiro visitar a página [Kodi - Feature Requests](http://forum.kodi.tv/forumdisplay.php?fid=9), para garantir que essa nova funcionalidade já não tenha sido solicitada, de modo a não existirem ideias repetidas. 
+
+(diagrama ds levantamento de requisitos)
 
 ### Análise de Requirimentos e Negociação
 
