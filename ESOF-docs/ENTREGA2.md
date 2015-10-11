@@ -74,7 +74,7 @@ De seguida apresentamos alguns exemplos de problemas e Das suas possiveis gravid
     - Prioridade = *Normal*
   - *Strings* incorrectas, erros de digitação, etc
     - Gravidade = *Trivial*
-    - Prioridade = *Normal*/*High*, dependendo 
+    - Prioridade = *Normal*/*High*, dependendo da visibilidade do usuário
   - *Feature requests*
     - Gravidade = *Enhancement*
     - Priority = *Normal*
