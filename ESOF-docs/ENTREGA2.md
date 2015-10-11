@@ -16,7 +16,7 @@
 
 
 No entanto, os verdadeiros "génios" que fazem com que o kodi cresça e evolua são os *stakeholders*.
-O Kodi é bastante dependente dos seus usuários, são especialmente eles que contribuem para uma evolução contínua do media center, relatando bugs e propondo novas funcionalidades. O ambiente de interação entre a equipa do Kodi e os seus usuários é o forúm. É aqui que a comunicaçao entre os desenvolvedores e o "ambiente exterior" acontece. Os usuários podem tirar dúvidas, submeter bugs que depois são analizados e corrigidos pelos programadores, ou submeter ideias que depois são analizadas pela comunidade, sendo aceites ou não. Para participar nos foruns de discossão é necessário registar-se em [Kodi - Register](http://forum.kodi.tv/member.php?action=register).
+O Kodi é bastante dependente dos seus usuários, são especialmente eles que contribuem para uma evolução contínua do media center, relatando bugs e propondo novas funcionalidades. O ambiente de interação entre a equipa do Kodi e os seus usuários é o forúm. É aqui que a comunicaçao entre os desenvolvedores e o "ambiente exterior" acontece. Os usuários podem tirar dúvidas, submeter bugs que depois são analizados e corrigidos pelos programadores, ou submeter ideias que depois são analizadas pela comunidade, sendo aceites ou não. Para participar nos foruns de discussão é necessário registar-se em [Kodi - Register](http://forum.kodi.tv/member.php?action=register).
 
 
 Os bugs e novas funcionalidades são geridas através de um site do kodi utilizado para o efeito: [Kodi - Trac](http://trac.kodi.tv/).
@@ -48,11 +48,11 @@ Existe uma boa comunição entre os desenvolvedores, através do fórum, do gith
 
 A validação de requisitos no Kodi é feita por *Quality Assurance Testers*. A equipa de segurança de qualidade é uma parte essencial do Kodi para garantir o contínuo sucesso do projecto. Esta é responsável por testar os produtos e investigar possíveis problemas que possam surgir durante este processo. Através de relatórios de erros e de *tracking*, ajudam a garantir que os desenvolvedores têm tempo suficiente para corrigir bugs e que são cumpridas as expectativas dos usuários.
 
-Qualquer pessoa que esteja disposta a investir algum do seu tempo para testar funcionalidades e investigas possiveis causas de problemas pode tornar-se um membro da equipa *QA* (também conhecida como *Bug Hunter Squad*). 
+Qualquer pessoa que esteja disposta a investir algum do seu tempo para testar funcionalidades e investigar possiveis causas de problemas pode tornar-se um membro da equipa *QA* (também conhecida como *Bug Hunter Squad*). 
 
-Assim que um problema é relatado nos fóruns ou no sistema de *tracking* de *issues Trac*, o dever da equipa *QA* é confirmar se o problema é um bug e, se o for, o seu papel é garantir que ele fica devidamente relatado em *trac*. Seguidamente, é necessário garantir o *bug* é atribuído ao desenvolvedor apropriado e acompanhar o processo de correção do erro, de modo a garantir que este toma o rumo devido. O relatório é considerado responsabilidade do membro da equipa  *Quality Assurance Testers* até que seja confirmada a correção deste pelo *tester* encarregue ou pelo usuário que reportou o *bug*. 
+Assim que um problema é relatado nos fóruns ou no sistema de *tracking* de *issues Trac*, o dever da equipa *QA* é confirmar se o problema é um bug e, se o for, o seu papel é garantir que ele fica devidamente relatado em *trac*. Seguidamente, é necessário garantir que o *bug* é atribuído ao desenvolvedor apropriado e acompanhar o processo de correção do erro, de modo a garantir que este toma o rumo devido no tempo estipulado. O relatório é considerado responsabilidade do membro da equipa  *Quality Assurance Testers* até que seja confirmada a correção deste pelo *tester* encarregue ou pelo usuário que reportou o *bug*. 
 
-A equipa *QA* está também encarregue por fazer testes de regressão. Tendo assim uma *media library* com diversos formatos de teste contra o producto. O teste de regressão permitem garantir que não surgiram novos defeitos em componentes já analisados.
+A equipa *QA* está também encarregue por fazer testes de regressão. Tendo assim uma *media library* com diversos formatos de teste contra o producto. Os testes de regressão permitem garantir que não surgirão novos defeitos em componentes já analisados.
 [Kodi - Assurance Testing](http://kodi.wiki/view/HOW-TO:Help_with_quality_assurance_testing)
 
 
