@@ -55,5 +55,31 @@ Assim que um problema é relatado nos fóruns ou no sistema de *tracking* de *is
 A equipa *QA* está também encarregue por fazer testes de regressão. Tendo assim uma *media library* com diversos formatos de teste contra o producto. Os testes de regressão permitem garantir que não surgirão novos defeitos em componentes já analisados.
 [Kodi - Assurance Testing](http://kodi.wiki/view/HOW-TO:Help_with_quality_assurance_testing)
 
+#### Gravidade e Prioridade
+
+Encontrar a gravidade e prioridade correcta para um problema é algo que requer alguma experiência.
+
+De seguida apresentamos alguns exemplos de problemas e Das suas possiveis gravidades e prioridades associadas:
+  - *Crasher bugs*
+    - Deve ter Gravidade = *Critical*
+    - Prioridade = *High*
+  - Algo que não funciona como esperado
+    - Gravidade = *Minor*/*Normal*/*Major*, dependendo de quanto prejudicar a aplicação
+    - Prioridade = *Normal*/*High*
+  - Problemas de usabilidade
+    - Gravidade = *Minor*
+    - Prioridade = *Normal*
+  - Questões de acessibilidade
+    - Gravidade = *Minor*/*Normal*, dependendo da extensão do bug
+    - Prioridade = *Normal*
+  - *Strings* incorrectas, erros de digitação, etc
+    - Gravidade = *Trivial*
+    - Prioridade = *Normal*/*High*, dependendo 
+  - *Feature requests*
+    - Gravidade = *Enhancement*
+    - Priority = *Normal*
+   (FALTA: Se é realmente um novo recurso, e não uma melhoria do projecto )
+
+No caso de não existir certeza quanto à classificação, é adicionado um comentário que explica o porquê daquela escolha.
 
 ### Análise Crítica
