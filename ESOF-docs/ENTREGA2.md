@@ -46,6 +46,7 @@ Existe uma boa comunição entre os desenvolvedores, através do fórum, do gith
 
 ### Validação de Requisitos
 
+A validação de requisitos no Kodi é feita por *Quality Assurance Testers*. A equipa de segurança de qualidade é uma parte essencial do Kodi para garantir o contínuo sucesso do projecto. Esta é responsável por testar os produtos e investigar possíveis problemas que possam surgir durante este processo. Através de relatórios de erros e de *tracking*, ajudam a garantir que os desenvolvedores têm tempo suficiente para corrigir bugs e que são cumpridas as expectativas dos usuários.
 
 
 ### Análise Crítica
