@@ -35,6 +35,12 @@ As ideias para novas funcionalidades, caso os desenvolvedores as achem oportunas
 
 ### Análise de Requirimentos e Negociação
 
+Nem todos os problemas levantados pela comunidade merecem, por parte da equipa Kodi, a mesma atenção a nível de tempo e recursos. Para que uma ideia seja posta em prática é necessário que pelo menos um dos desenvolvedores a aceite implementar. Ou que a própria pessoa que teve a ideia tenha também a iniciativa de a implementar, fazendo depois um pull request.
+
+A equipa responsável pelo kodi com direitos de aceitar pull requests verifica então o que foi alterado, e se aceitarem, usam um bot para testar a build do projeto nas várias plataformas e fazer merge no branch master se não tiverem ocorridos problemas durante a compilação. 
+Existe uma boa comunição entre os desenvolvedores, através do fórum, do github, do blog e de reuniões, o que lhes permitem discutirem entre si de modo a chegarem a um consenso na tomada de decisões.
+ 
+
 ### Especificação de Requirimentos
 
 ### Validação de Requisitos
