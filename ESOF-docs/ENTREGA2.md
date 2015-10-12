@@ -4,19 +4,18 @@
 
 ### Levantamento de Requisitos
 
-  O levantamento e a análise de requisitos é o início para todo o desenvolvimento de software. É de fundamental importância para que se construa o software certo, ou seja, é necessário antes de mais nada que os envolvidos no projeto de software saibam exatamente o que é esperado da aplicação a ser construído.
+  O levantamento e a análise de requisitos é o início de todo o desenvolvimento de software. É de fundamental importância para que se construa o software certo, ou seja, é necessário, antes de mais nada, que os envolvidos no projeto de software saibam exatamente o que é esperado da aplicação a ser construída.
 
-  Primeiramente e antes de todos os requisitos provenientes dos *stakeholders*, o kodi tem já ele próprio requisitos que o caracterizam. Dos quais são exemplo:
+  Inicialmente, antes de todos os requisitos provenientes dos *stakeholders*, o Kodi tem já ele próprio requisitos que o caracterizam. Dos quais são exemplo:
   - Ser fácil de instalar, configurar e manter
   - Possuir uma interface simples e intuitiva
   - Ser capaz de organizar arquivos de áudio e vídeo de uma forma simples
   - Executar ações na GUI com o mínimo de cliques possíveis
   - Ser destinado a um público internacional
-  - Apelativo ao olhar
-
+  - Ter um design apelativo
 
 No entanto, os verdadeiros "génios" que fazem com que o kodi cresça e evolua são os *stakeholders*.
-O Kodi é bastante dependente dos seus usuários, são especialmente eles que contribuem para uma evolução contínua do media center, relatando bugs e propondo novas funcionalidades. O ambiente de interação entre a equipa do Kodi e os seus usuários é o forúm. É aqui que a comunicaçao entre os desenvolvedores e o "ambiente exterior" acontece. Os usuários podem tirar dúvidas, submeter bugs que depois são analizados e corrigidos pelos programadores, ou submeter ideias que depois são analizadas pela comunidade, sendo aceites ou não. Para participar nos foruns de discussão é necessário registar-se em [Kodi - Register](http://forum.kodi.tv/member.php?action=register).
+O Kodi é bastante dependente dos seus utilizadores, são essencialmente eles que contribuem para uma evolução contínua do media center, relatando bugs e propondo novas funcionalidades. O ambiente de interação entre a equipa do Kodi e os seus usuários é o forúm. É aqui que a comunicaçao entre os desenvolvedores e o "ambiente exterior" acontece. Os usuários podem tirar dúvidas, submeter bugs que depois são analizados e corrigidos pelos programadores, ou submeter ideias que depois são analizadas pela comunidade, sendo aceites ou não. Para participar nos foruns de discussão é necessário registar-se em [Kodi - Register](http://forum.kodi.tv/member.php?action=register).
 
 
 Os bugs e novas funcionalidades são geridas através de um site do kodi utilizado para o efeito: [Kodi - Trac](http://trac.kodi.tv/).
@@ -40,7 +39,7 @@ A equipa responsável pelo kodi com direitos de aceitar pull requests verifica e
 Existe uma boa comunição entre os desenvolvedores, através do fórum, do github, do blog e de reuniões, o que lhes permitem discutirem entre si de modo a chegarem a um consenso na tomada de decisões.
  
 
-### Especificação de Requirimentos
+### Especificação de Requisitos
 
 (diagramas...)
 
