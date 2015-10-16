@@ -14,7 +14,7 @@
  * Ser destinado a um público internacional
  * Ter um *design* apelativo
 
-O *Kodi* é constituído por uma enorme comunidade. O ambiente de interação entre a equipa do *Kodi* e os seus utilizadores é principalmente o forúm. É maioritariamente aqui que a comunicação entre os desenvolvedores e o "ambiente exterior" acontece. Os utilizadores podem tirar dúvidas, submeter bugs que são analisados e corrigidos pelos programadores, ou submeter ideias que depois são discutidas pela comunidade, sendo aceites ou não. Para participar nos fóruns de discussão é necessário registar-se em [*Kodi* - *Register*](http://forum.kodi.tv/member.php?action=register).
+O *Kodi* é constituído por uma enorme comunidade. O ambiente de interação entre a equipa do *Kodi* e os seus utilizadores é principalmente o fórum. É maioritariamente aqui que a comunicação entre os desenvolvedores e o "ambiente exterior" acontece. Os utilizadores podem tirar dúvidas, submeter bugs que são analisados e corrigidos pelos programadores, ou submeter ideias que depois são discutidas pela comunidade, sendo aceites ou não. Para participar nos fóruns de discussão é necessário registar-se em [*Kodi* - *Register*](http://forum.kodi.tv/member.php?action=register).
 
 Os *bugs* e novas funcionalidades são geridas através de um site do *Kodi* utilizado para o efeito: [*Kodi* - *Trac*](http://trac.kodi.tv/).
 
@@ -33,19 +33,6 @@ As ideias para novas funcionalidades, caso os desenvolvedores as achem oportunas
 
 Nem todos os problemas levantados pela comunidade merecem, por parte da equipa *Kodi*, a mesma atenção a nível de tempo e recursos. Para que uma ideia seja posta em prática é necessário que pelo menos um dos desenvolvedores aceite implementá-la, ou que a própria pessoa que teve a ideia tenha a iniciativa de a implementar, fazendo depois um *pull request*.
 
-A equipa responsável pelo *Kodi* com direitos de aceitar *pull requests* verifica então o que foi alterado, e se aceitarem, usam um *bot* para testar a *build* do projeto nas várias plataformas e fazer *merge* no *branch master* se não tiverem ocorrido problemas durante a compilação. 
-Existe uma boa comunição entre os desenvolvedores, através de canais privados no IRC, do *slack*, do fórum, do github e de reuniões, o que lhes permite discutirem entre si de modo a chegarem a um consenso na tomada de decisões.
- 
-
-### Especificação de Requisitos
-
-Uma das partes importantes do levantamento de requisitos é a sua especificação e documentação, que tem como fim determinar os objectivos do software e as suas restrições associadas, combinando as exigências do utilizador e do sistema. Normalmente, existe um documento que funciona como uma declaração oficial dos requisitos do sistema chamado Documento de Especificação de Requisitos (*Software Requirements Specification* ou SRS ).
-
-O *Kodi* não utiliza, nem mantem, um SRS.
-
-Segundo um dos membros da equipa do *Kodi* em Portugal (https://github.com/hudokkow):
-> Simplesmente nunca se mostrou necessário e, muito francamente, não temos pessoal suficiente, tempo ou disposição... Como o *Kodi* é desenvolvido por voluntários, sem clientes no sentido tradicional do termo, nunca achamos necessário tal nível de organização ou compromisso.
-
 Dada a dificuldade em manter mais de 10 milhões de utilizadores satisfeitos, sobretudo porque o *Kodi* corre em inúmeras plataformas, nunca é alterado um componente essencial do software se a alteração não garantir, pelo menos que:
  * A funcionalidade existente mantêm-se ou é melhorada.
  * Se uma das plataformas não sustentar a(s) nova(s) funcionalidade(s) no imediato, espera-se um periodo razoável até que os programadores responsáveis possam implementá-la. Normalmente, programadores de outras plataformas/áreas ajudam no que é possível. Mas, se algo revelar que as limitações da plataforma são impossíveis de ultrapassar, os utilizadores são avisados deste facto e a funcionalidade é adicionada/estendida às restantes plataformas.
@@ -54,6 +41,17 @@ Dada a dificuldade em manter mais de 10 milhões de utilizadores satisfeitos, so
 Para manter toda a gente a par do que está a acontecer ou quem está a editar determinadas partes de código, os membros do *Kodi* fazem questão de discutir internamente a melhor solução para cada problema, principalmente quando se fala num dos componentes principais.
 
 Todos os membros da *Team Kodi*, independentemente da sua área de "*expertise*", têm voto sobre o caminho a seguir e as ideias são debatidas até à exaustão. No final, ganha a maioria, mas é dado mais peso à opinião dos programadores principais dessa área, já que são eles que melhor compreendem o caminho a seguir e os ricos a ele associados.
+
+### Especificação de Requisitos
+
+Uma das partes importantes do levantamento de requisitos é a sua especificação e documentação, que tem como fim determinar os objectivos do software e as suas restrições associadas, combinando as exigências do utilizador e do sistema. Normalmente, existe um documento que funciona como uma declaração oficial dos requisitos do sistema chamado Documento de Especificação de Requisitos (*Software Requirements Specification* ou SRS ).
+
+Contudo, o *Kodi* não utiliza, nem mantem, um SRS.
+
+Segundo um dos membros da equipa do *Kodi* em Portugal (https://github.com/hudokkow):
+> Simplesmente nunca se mostrou necessário e, muito francamente, não temos pessoal suficiente, tempo ou disposição... Como o *Kodi* é desenvolvido por voluntários, sem clientes no sentido tradicional do termo, nunca achamos necessário tal nível de organização ou compromisso.
+
+Porém, como referido na secção anterior, as ideias são discutidas exaustivamente e a equipa chega a uma conclusão do que deve ser implementado.
 
 ### Validação de Requisitos
 
