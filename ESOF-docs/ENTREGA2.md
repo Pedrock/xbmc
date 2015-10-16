@@ -12,15 +12,15 @@
   - Ser capaz de organizar arquivos de áudio e vídeo de uma forma simples
   - Executar ações na GUI com o mínimo de cliques possíveis
   - Ser destinado a um público internacional
-  - Ter um design apelativo
+  - Ter um *design* apelativo
 
-No entanto, os verdadeiros "génios" que fazem com que o *Kodi* cresça e evolua são os *stakeholders*.
-O *Kodi* é bastante dependente dos seus utilizadores, são essencialmente eles que contribuem para uma evolução contínua do media center, reportando bugs e propondo novas funcionalidades. O ambiente de interação entre a equipa do *Kodi* e os seus utilizadores é o forúm. É aqui que a comunicaçao entre os desenvolvedores e o "ambiente exterior" acontece. Os utilizadores podem tirar dúvidas, submeter bugs que depois são analizados e corrigidos pelos programadores, ou submeter ideias que depois são analizadas pela comunidade, sendo aceites ou não. Para participar nos fóruns de discussão é necessário registar-se em [*Kodi* - *Register*](http://forum.kodi.tv/member.php?action=register).
+No entanto, os verdadeiros "génios" que fazem com que o *Kodi* cresça e evolua, são os *stakeholders*.
+O *Kodi* é bastante dependente dos seus utilizadores, são essencialmente eles que contribuem para uma evolução contínua do *media center*, reportando bugs e propondo novas funcionalidades. O ambiente de interação entre a equipa do *Kodi* e os seus utilizadores é o forúm. É aqui que a comunicaçao entre os desenvolvedores e o "ambiente exterior" acontece. Os utilizadores podem tirar dúvidas, submeter bugs que depois são analizados e corrigidos pelos programadores, ou submeter ideias que depois são analizadas pela comunidade, sendo aceites ou não. Para participar nos fóruns de discussão é necessário registar-se em [*Kodi* - *Register*](http://forum.kodi.tv/member.php?action=register).
 
-Os bugs e novas funcionalidades são geridas através de um site do *Kodi* utilizado para o efeito: [*Kodi* - *Trac*](http://trac.kodi.tv/).
+Os *bugs* e novas funcionalidades são geridas através de um site do *Kodi* utilizado para o efeito: [*Kodi* - *Trac*](http://trac.kodi.tv/).
 
 
-#### Bugs
+#### *Bugs*
 
 Aos utilizadores que reportamr erros é-lhes pedido que forneçam um relatório especifico de modo a que o problema possa ser rastreado.
 Os passos para a submissão apropriada de bugs encontram-se em [*Kodi* - *Bugs*](http://kodi.wiki/view/HOW-TO:Submit_a_bug_report).
@@ -34,8 +34,8 @@ As ideias para novas funcionalidades, caso os desenvolvedores as achem oportunas
 
 Nem todos os problemas levantados pela comunidade merecem, por parte da equipa *Kodi*, a mesma atenção a nível de tempo e recursos. Para que uma ideia seja posta em prática é necessário que pelo menos um dos desenvolvedores a aceite implementar, ou que a própria pessoa que teve a ideia, tenha a iniciativa de a implementar, fazendo depois um *pull request*.
 
-A equipa responsável pelo *Kodi* com direitos de aceitar *pull requests* verifica então o que foi alterado, e se aceitarem, usam um *bot* para testar a *build* do projeto nas várias plataformas e fazer *merge* no *branch master* se não tiverem ocorridos problemas durante a compilação. 
-Existe uma boa comunição entre os desenvolvedores, através de canais privados no IRC, do *slack*, do fórum, do github e de reuniões, o que lhes permitem discutirem entre si de modo a chegarem a um consenso na tomada de decisões.
+A equipa responsável pelo *Kodi* com direitos de aceitar *pull requests* verifica então o que foi alterado, e se aceitarem, usam um *bot* para testar a *build* do projeto nas várias plataformas e fazer *merge* no *branch master* se não tiverem ocorrido problemas durante a compilação. 
+Existe uma boa comunição entre os desenvolvedores, através de canais privados no IRC, do *slack*, do fórum, do github e de reuniões, o que lhes permitem discutire entre si de modo a chegarem a um consenso na tomada de decisões.
  
 
 ### Especificação de Requisitos
@@ -50,9 +50,9 @@ Segundo um dos membros da equipa do *Kodi* em Portugal (https://github.com/hudok
 Dada a dificuldade em manter mais de 10 milhões de utilizadores satisfeitos, sobretudo porque o *Kodi* corre em inúmeras plataformas, nunca é alterado um componente essencial do software se a alteração não garantir, pelo menos que:
 - A funcionalidade existente mantêm-se ou é melhorada.
 - Se uma das plataformas não sustentar a(s) nova(s) funcionalidade(s) no imediato, espera-se um periodo razoável até que os programadores responsáveis possam implementa-la. Normalmente, programadores de outras plataformas/áreas ajudam no que é possível. Mas, se se revelar que as limitações da plataforma são impossíveis de ultrapassar, os utilizadores são avisados deste facto e a funcionalidade é adicionada/estendida às restantes plataformas.
-- A funcionalidade tem que ser testada antes de aparecer numa Release. Para isso o Kodi conta com alguns milhares de beta-testers não oficiais, dispostos a testar as Alphas, Betas e RCs. Ou mesmo, para os mais corajosos, o *buildbot* disponibiliza *builds* todas as noites. As chamadas *nightlies*.
+- A funcionalidade tem que ser testada antes de aparecer numa Release. Para isso o Kodi conta com alguns milhares de *beta-testers* não oficiais, dispostos a testar as *Alphas*, *Betas* e *RCs*. Ou mesmo, para os mais corajosos, o *buildbot* disponibiliza *builds* todas as noites. As chamadas *nightlies*.
 
-Como o *Kodi* utiliza um modelo [RERO](https://en.wikipedia.org/wiki/Release_early,_release_often) para as *releases*, com um ciclo de cerca de 6 meses, por vezes há funcionalidades que esperam vários ciclos até atingirem a maturidade necessária para serem incluídas numa Release. É o caso do [*RetroPlayer*](http://forum.kodi.tv/forumdisplay.php?fid=194), um novo componente que permite transformar o *Kodi* numa consola de jogos.
+Como o *Kodi* utiliza um modelo [RERO](https://en.wikipedia.org/wiki/Release_early,_release_often) para as *releases*, com um ciclo de cerca de 6 meses, por vezes há funcionalidades que esperam vários ciclos até atingirem a maturidade necessária para serem incluídas numa *Release*. É o caso do [*RetroPlayer*](http://forum.kodi.tv/forumdisplay.php?fid=194), um novo componente que permite transformar o *Kodi* numa consola de jogos.
 
 Para manter toda a gente a par do que está a acontecer ou quem está a tocar em que código, os membros do *Kodi* fazem questão de discutir internamente a melhor solução para cada problema, principalmente quando se fala num dos componentes principais. Para facilitar essa troca de ideias, mantêm canais privados no IRC, *slack* e no fórum, como dito anteriormente. O github também é usado, mas normalmente apenas numa fase mais avançada.
 
@@ -62,11 +62,11 @@ Todos os membros da *Team Kodi*, independentemente da sua área de "*expertise*"
 
 A validação de requisitos no *Kodi* é feita por *Quality Assurance Testers*. A equipa de segurança de qualidade é uma parte essencial do *Kodi* para garantir o contínuo sucesso do projecto. Esta é responsável por testar os produtos e investigar possíveis problemas que possam surgir durante este processo. Através de relatórios de erros e de *tracking*, ajudam a garantir que os desenvolvedores têm tempo suficiente para corrigir bugs e que são cumpridas as expectativas dos utilizadores.
 
-Qualquer pessoa que esteja disposta a investir algum do seu tempo para testar funcionalidades e investigar possiveis causas de problemas pode tornar-se um membro da equipa *QA* (também conhecida como *Bug Hunter Squad*). 
+Qualquer pessoa que esteja disposta a investir algum do seu tempo para testar funcionalidades ou investigar possiveis causas de problemas pode tornar-se um membro da equipa *QA* (também conhecida como *Bug Hunter Squad*). 
 
 Assim que um problema é reportado nos fóruns ou no sistema de *tracking* de *issues Trac*, o dever da equipa *QA* é confirmar se o problema é um bug e, se o for, o seu papel é garantir que ele fica devidamente reportado em *trac*. De seguida, é necessário garantir que o *bug* é atribuído ao desenvolvedor apropriado e acompanhar o processo de correção do mesmo, de modo a garantir que este toma o rumo devido no tempo estipulado. O relatório é considerado responsabilidade do membro da equipa *Quality Assurance Testers* até que seja confirmada a correção deste pelo *tester* encarregue ou pelo utilizador que reportou o *bug*. 
 
-A equipa *QA* está também encarregue por fazer testes de regressão. Tendo assim uma *media library* com diversos formatos de teste contra o producto. Os testes de regressão permitem garantir que não surgirão novos defeitos em componentes já analisados.
+A equipa *QA* está também encarregue por fazer testes de regressão, mais utilizados nos *pull requests*. Tendo assim uma *media library* com diversos formatos de teste contra o producto. Os testes de regressão permitem garantir que não surgirão novos defeitos em componentes já analisados, como é o caso da passagem para versões mais recentes do software.
 [*Kodi* - *Assurance Testing*](http://kodi.wiki/view/HOW-TO:Help_with_quality_assurance_testing) 
 
 #### Gravidade e Prioridade
