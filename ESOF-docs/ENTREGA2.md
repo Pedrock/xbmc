@@ -30,7 +30,7 @@ Os passos para a submissão apropriada de bugs encontram-se em [*Kodi* - *Bugs*]
 As ideias para novas funcionalidades, caso os desenvolvedores as achem oportunas, podem ser discutidas no fórum entre utilizadores e desenvolvedores. Antes de fazer qualquer solicitação de alguma funcionalidade, é importante primeiro visitar a página [*Kodi* - *Feature Requests*](http://forum.kodi.tv/forumdisplay.php?fid=9), para garantir que essa nova funcionalidade já não tenha sido solicitada, de modo a não existirem ideias repetidas. 
 
 
-### Análise de Requisitos e Negociação
+### Análise e Negociação de Requisitos
 
 Nem todos os problemas levantados pela comunidade merecem, por parte da equipa *Kodi*, a mesma atenção a nível de tempo e recursos. Para que uma ideia seja posta em prática é necessário que pelo menos um dos desenvolvedores a aceite implementar, ou que a própria pessoa que teve a ideia, tenha a iniciativa de a implementar, fazendo depois um *pull request*.
 
@@ -50,9 +50,7 @@ Segundo um dos membros da equipa do *Kodi* em Portugal (https://github.com/hudok
 Dada a dificuldade em manter mais de 10 milhões de utilizadores satisfeitos, sobretudo porque o *Kodi* corre em inúmeras plataformas, nunca é alterado um componente essencial do software se a alteração não garantir, pelo menos que:
 - A funcionalidade existente mantêm-se ou é melhorada.
 - Se uma das plataformas não sustentar a(s) nova(s) funcionalidade(s) no imediato, espera-se um periodo razoável até que os programadores responsáveis possam implementa-la. Normalmente, programadores de outras plataformas/áreas ajudam no que é possível. Mas, se se revelar que as limitações da plataforma são impossíveis de ultrapassar, os utilizadores são avisados deste facto e a funcionalidade é adicionada/estendida às restantes plataformas.
-- A funcionalidade tem que ser testada antes de aparecer numa Release. Para isso o Kodi conta com alguns milhares de *beta-testers* não oficiais, dispostos a testar as *Alphas*, *Betas* e *RCs*. Ou mesmo, para os mais corajosos, o *buildbot* disponibiliza *builds* todas as noites. As chamadas *nightlies*.
-
-Como o *Kodi* utiliza um modelo [RERO](https://en.wikipedia.org/wiki/Release_early,_release_often) para as *releases*, com um ciclo de cerca de 6 meses, por vezes há funcionalidades que esperam vários ciclos até atingirem a maturidade necessária para serem incluídas numa *Release*. É o caso do [*RetroPlayer*](http://forum.kodi.tv/forumdisplay.php?fid=194), um novo componente que permite transformar o *Kodi* numa consola de jogos.
+- A funcionalidade tem que ser testada antes de aparecer numa *Release*.
 
 Para manter toda a gente a par do que está a acontecer ou quem está a tocar em que código, os membros do *Kodi* fazem questão de discutir internamente a melhor solução para cada problema, principalmente quando se fala num dos componentes principais. Para facilitar essa troca de ideias, mantêm canais privados no IRC, *slack* e no fórum, como dito anteriormente. O github também é usado, mas normalmente apenas numa fase mais avançada.
 
@@ -60,40 +58,15 @@ Todos os membros da *Team Kodi*, independentemente da sua área de "*expertise*"
 
 ### Validação de Requisitos
 
-A validação de requisitos no *Kodi* é feita por *Quality Assurance Testers*. A equipa de segurança de qualidade é uma parte essencial do *Kodi* para garantir o contínuo sucesso do projecto. Esta é responsável por testar os produtos e investigar possíveis problemas que possam surgir durante este processo. Através de relatórios de erros e de *tracking*, ajudam a garantir que os desenvolvedores têm tempo suficiente para corrigir bugs e que são cumpridas as expectativas dos utilizadores.
+A validação de Requisitos trata, tal como o seu nome indica, da validação quanto à consistência, precisão e contextualização de requisitos levantados nos processos de levantamento e de análise e negociação de requisitos. Após estas duas fases, é necessário verificar se o código funciona como o esperado. O [buildbot](http://jenkins.kodi.tv/) é a ferramenta que o *Kodi* utiliza para o efeito.
 
-Qualquer pessoa que esteja disposta a investir algum do seu tempo para testar funcionalidades ou investigar possiveis causas de problemas pode tornar-se um membro da equipa *QA* (também conhecida como *Bug Hunter Squad*). 
+As novas funcionalidades têm que ser testadas antes de aparecer numa *Realease*, e para isso, o *Kodi* conta com alguns milhares de beta-testers não oficiais, dispostos a testar as *Alphas*, *Betas* e *RCs*. 
 
-Assim que um problema é reportado nos fóruns ou no sistema de *tracking* de *issues Trac*, o dever da equipa *QA* é confirmar se o problema é um bug e, se o for, o seu papel é garantir que ele fica devidamente reportado em *trac*. De seguida, é necessário garantir que o *bug* é atribuído ao desenvolvedor apropriado e acompanhar o processo de correção do mesmo, de modo a garantir que este toma o rumo devido no tempo estipulado. O relatório é considerado responsabilidade do membro da equipa *Quality Assurance Testers* até que seja confirmada a correção deste pelo *tester* encarregue ou pelo utilizador que reportou o *bug*. 
+Para o tratamento de *pull requests*, a equipa do *Kodi* usa um bot para testar a build do projeto nas várias plataformas e fazer *merge* no *branch master* a partir do momento em que não existirem problemas durante a compilação. Quando tudo se encontra terminado, o *Release Manager* faz um *feature freze*, em que não são adicionadas mais funcionalidades ao código, e decide quando lançar as versões *Beta* e *Release Candidate* para serem testadas pelos utilizadores antes da versão final e corrigir o maior número de bugs possíveis. Quando a versão se encontra estável, é lançada a versão final. Se mais tarde forem encontrados bugs são lançadas versões bugfix release, como por exemplo a versão 15.1.
 
-A equipa *QA* está também encarregue por fazer testes de regressão, mais utilizados nos *pull requests*. Tendo assim uma *media library* com diversos formatos de teste contra o producto. Os testes de regressão permitem garantir que não surgirão novos defeitos em componentes já analisados, como é o caso da passagem para versões mais recentes do software.
-[*Kodi* - *Assurance Testing*](http://kodi.wiki/view/HOW-TO:Help_with_quality_assurance_testing) 
+Para além disto, também existem compilações diárias (*nightly builds*) e mensais (*monthly builds*).
 
-#### Gravidade e Prioridade
+Como o *Kodi* utiliza um modelo [RERO](https://en.wikipedia.org/wiki/Release_early,_release_often) para as *releases*, com um ciclo de cerca de 6 meses, por vezes há funcionalidades que esperam vários ciclos até atingirem a maturidade necessária para serem incluídas numa *Release*. É o caso do [*RetroPlayer*](http://forum.kodi.tv/forumdisplay.php?fid=194), um novo componente que permite transformar o *Kodi* numa consola de jogos.
 
-Encontrar a gravidade e prioridade correcta para um problema é algo que requer alguma experiência.
-
-De seguida apresentamos alguns exemplos de problemas e das suas possiveis gravidades e prioridades associadas:
-  - *Crasher bugs*
-    - Deve ter Gravidade = *Critical*
-    - Prioridade = *High*
-  - Algo que não funciona como esperado
-    - Gravidade = *Minor*/*Normal*/*Major*, dependendo de quanto prejudicar a aplicação
-    - Prioridade = *Normal*/*High*
-  - Problemas de usabilidade
-    - Gravidade = *Minor*
-    - Prioridade = *Normal*
-  - Questões de acessibilidade
-    - Gravidade = *Minor*/*Normal*, dependendo da extensão do bug
-    - Prioridade = *Normal*
-  - *Strings* incorrectas, erros de digitação, etc
-    - Gravidade = *Trivial*
-    - Prioridade = *Normal*/*High*, dependendo da visibilidade do utilizador
-  - *Feature requests*
-    - Gravidade = *Enhancement*
-    - Priority = *Normal*
-   (FALTA: Se é realmente um novo recurso, e não uma melhoria do projecto )
-
-No caso de não existir certeza quanto à classificação, é adicionado um comentário que explica o porquê daquela escolha.
 
 ### Análise Crítica
