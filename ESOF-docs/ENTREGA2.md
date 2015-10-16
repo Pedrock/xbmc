@@ -48,7 +48,7 @@ O Kodi não utiliza, nem mantem, um SRS.
 Segundo um dos membros da equipa do Kodi em Portugal (https://github.com/hudokkow):
 > Simplesmente nunca se mostrou necessário e, muito francamente, não temos pessoal suficiente, tempo ou disposição... Como o Kodi é desenvolvido por voluntários, sem clientes no sentido tradicional do termo, nunca achamos necessário tal nível de organização ou compromisso.
 
-Dito isto, e dada a dificuldade em manter mais de 10 milhões de utilizadores satisfeitos, sobretudo porque o Kodi corre em inúmeras plataformas, nunca é alterado um componente essencial do software se a alteração não garantir, pelo menos que:
+Dada a dificuldade em manter mais de 10 milhões de utilizadores satisfeitos, sobretudo porque o Kodi corre em inúmeras plataformas, nunca é alterado um componente essencial do software se a alteração não garantir, pelo menos que:
 - A funcionalidade existente mantêm-se ou é melhorada.
 - Se uma das plataformas não sustentar a(s) nova(s) funcionalidade(s) no imediato, espera-se um periodo razoável até que os programadores responsáveis possam implementa-la. Normalmente, programadores de outras plataformas/áreas ajudam no que é possível. Mas, se se revelar que as limitações da plataforma são impossíveis de ultrapassar, os utilizadores são avisados deste facto e a funcionalidade é adicionada/estendida às restantes plataformas.
 - A funcionalidade tem que ser testada antes de aparecer numa Release. Para isso o Kodi conta com alguns milhares de beta-testers não oficiais, dispostos a testar as Alphas, Betas e RCs. Ou mesmo, para os mais corajosos, o *buildbot* disponibiliza *builds* todas as noites. As chamadas *nightlies*.
