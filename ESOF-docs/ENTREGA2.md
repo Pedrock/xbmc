@@ -41,7 +41,7 @@ Existe uma boa comunição entre os desenvolvedores, através do fórum, do gith
 
 ### Especificação de Requisitos
 
-Uma das partes importantes do levantamento de requisitos é a sua especificação e documentação, que tem como fim determinar os objectivos do software e as suas restrições associadas, combinando os exigências do utilizador e do sistema. Normalmente, existe um documento que funciona como uma declaração oficial dos requisitos do sistema chamado Documento de Especificação de Requisitos (*Software Requirements Specification* ou SRS ).
+Uma das partes importantes do levantamento de requisitos é a sua especificação e documentação, que tem como fim determinar os objectivos do software e as suas restrições associadas, combinando as exigências do utilizador e do sistema. Normalmente, existe um documento que funciona como uma declaração oficial dos requisitos do sistema chamado Documento de Especificação de Requisitos (*Software Requirements Specification* ou SRS ).
 
 O Kodi não utiliza, nem mantem, um SRS.
 
@@ -55,9 +55,7 @@ Dito isto, e dada a dificuldade em manter mais de 10 milhões de utilizadores sa
 
 Como o Kodi utiliza um modelo [RERO](https://en.wikipedia.org/wiki/Release_early,_release_often) para as *releases*, com um ciclo de cerca de 6 meses, por vezes há funcionalidades que esperam vários ciclos até atingirem a maturidade necessária para serem incluídas numa Release. É o caso do [*RetroPlayer*](http://forum.kodi.tv/forumdisplay.php?fid=194), um novo componente que permite transformar o Kodi numa consola de jogos.
 
-Para manter toda a gente a par do que está a acontecer ou quem está a tocar em que código, os membros do Kodi fazem questão de discutir internamente a melhor solução para cada problema, particularmente quando se toca num dos componentes principais. Para facilitar essa troca de ideias, matêm canais privados no IRC, slack e no fórum. O github também é usado, mas normalmente apenas numa fase mais avançada, para diminuir o ruído.
-
-Isto está a acontecer neste momento com o desenvolvimento do [VideoPlayer](http://forum.kodi.tv/forumdisplay.php?fid=240)  que irá substituir o antigo DVDPlayer (o componente responsável pela reprodução de vídeo). Tratando-se de um componente absolutamente essencial num *software media center*, as razões da alteração a levar a efeito, bem como os requisitos mínimos foram discutidos internamente antes de se chegar a um consenso.
+Para manter toda a gente a par do que está a acontecer ou quem está a tocar em que código, os membros do Kodi fazem questão de discutir internamente a melhor solução para cada problema, principalmente quando se fala num dos componentes principais. Para facilitar essa troca de ideias, matêm canais privados no IRC, slack e no fórum. O github também é usado, mas normalmente apenas numa fase mais avançada.
 
 Todos os membros da Team Kodi, independentemente da sua área de "*expertise*", têm voto sobre o caminho a seguir e as ideias são debatidas até à exaustão. No final, ganha a voz da maioria mas é dado mais "peso" à opinião dos programadores principais dessa área, já que são eles que melhor compreendem o caminho a seguir.
 
