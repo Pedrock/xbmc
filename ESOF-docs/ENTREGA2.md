@@ -4,7 +4,7 @@
 
 ### Levantamento de Requisitos
 
-  O levantamento e a análise de requisitos é o início de todo o desenvolvimento de software. É de fundamental importância para que se construa o software certo, ou seja, é necessário, antes de mais nada, que os envolvidos no projeto de software saibam exatamente o que é esperado da aplicação a ser construída.
+  O levantamento e a análise de requisitos é o início de todo o desenvolvimento de software. É de fundamental importância que se construa o software certo, ou seja, é necessário, antes de mais nada, que os envolvidos no projeto de software saibam exatamente o que é esperado da aplicação a ser construída.
 
   Inicialmente, antes de todos os requisitos provenientes dos *stakeholders*, o *Kodi* tem já ele próprio requisitos que o caracterizam. Dos quais são exemplo:
   - Ser fácil de instalar, configurar e manter
@@ -15,14 +15,14 @@
   - Ter um *design* apelativo
 
 No entanto, os verdadeiros "génios" que fazem com que o *Kodi* cresça e evolua, são os *stakeholders*.
-O *Kodi* é bastante dependente dos seus utilizadores, são essencialmente eles que contribuem para uma evolução contínua do *media center*, reportando bugs e propondo novas funcionalidades. O ambiente de interação entre a equipa do *Kodi* e os seus utilizadores é o forúm. É aqui que a comunicaçao entre os desenvolvedores e o "ambiente exterior" acontece. Os utilizadores podem tirar dúvidas, submeter bugs que depois são analizados e corrigidos pelos programadores, ou submeter ideias que depois são analizadas pela comunidade, sendo aceites ou não. Para participar nos fóruns de discussão é necessário registar-se em [*Kodi* - *Register*](http://forum.kodi.tv/member.php?action=register).
+O *Kodi* é bastante dependente dos seus utilizadores, são essencialmente eles que contribuem para uma evolução contínua do *media center*, reportando bugs e propondo novas funcionalidades. O ambiente de interação entre a equipa do *Kodi* e os seus utilizadores é o forúm. É aqui que a comunicação entre os desenvolvedores e o "ambiente exterior" acontece. Os utilizadores podem tirar dúvidas, submeter bugs que são analisados e corrigidos pelos programadores, ou submeter ideias que depois são discutidas pela comunidade, sendo aceites ou não. Para participar nos fóruns de discussão é necessário registar-se em [*Kodi* - *Register*](http://forum.kodi.tv/member.php?action=register).
 
 Os *bugs* e novas funcionalidades são geridas através de um site do *Kodi* utilizado para o efeito: [*Kodi* - *Trac*](http://trac.kodi.tv/).
 
 
 #### *Bugs*
 
-Aos utilizadores que reportamr erros é-lhes pedido que forneçam um relatório especifico de modo a que o problema possa ser rastreado.
+Aos utilizadores que reportam os erros é-lhes pedido que forneçam um relatório específico de modo a que o problema possa ser rastreado.
 Os passos para a submissão apropriada de bugs encontram-se em [*Kodi* - *Bugs*](http://kodi.wiki/view/HOW-TO:Submit_a_bug_report).
 
 #### Solicitação de Novas Funcionalidades
@@ -32,10 +32,10 @@ As ideias para novas funcionalidades, caso os desenvolvedores as achem oportunas
 
 ### Análise e Negociação de Requisitos
 
-Nem todos os problemas levantados pela comunidade merecem, por parte da equipa *Kodi*, a mesma atenção a nível de tempo e recursos. Para que uma ideia seja posta em prática é necessário que pelo menos um dos desenvolvedores a aceite implementar, ou que a própria pessoa que teve a ideia, tenha a iniciativa de a implementar, fazendo depois um *pull request*.
+Nem todos os problemas levantados pela comunidade merecem, por parte da equipa *Kodi*, a mesma atenção a nível de tempo e recursos. Para que uma ideia seja posta em prática é necessário que pelo menos um dos desenvolvedores aceite implementá-la, ou que a própria pessoa que teve a ideia tenha a iniciativa de a implementar, fazendo depois um *pull request*.
 
 A equipa responsável pelo *Kodi* com direitos de aceitar *pull requests* verifica então o que foi alterado, e se aceitarem, usam um *bot* para testar a *build* do projeto nas várias plataformas e fazer *merge* no *branch master* se não tiverem ocorrido problemas durante a compilação. 
-Existe uma boa comunição entre os desenvolvedores, através de canais privados no IRC, do *slack*, do fórum, do github e de reuniões, o que lhes permitem discutire entre si de modo a chegarem a um consenso na tomada de decisões.
+Existe uma boa comunição entre os desenvolvedores, através de canais privados no IRC, do *slack*, do fórum, do github e de reuniões, o que lhes permite discutirem entre si de modo a chegarem a um consenso na tomada de decisões.
  
 
 ### Especificação de Requisitos
@@ -49,20 +49,20 @@ Segundo um dos membros da equipa do *Kodi* em Portugal (https://github.com/hudok
 
 Dada a dificuldade em manter mais de 10 milhões de utilizadores satisfeitos, sobretudo porque o *Kodi* corre em inúmeras plataformas, nunca é alterado um componente essencial do software se a alteração não garantir, pelo menos que:
 - A funcionalidade existente mantêm-se ou é melhorada.
-- Se uma das plataformas não sustentar a(s) nova(s) funcionalidade(s) no imediato, espera-se um periodo razoável até que os programadores responsáveis possam implementa-la. Normalmente, programadores de outras plataformas/áreas ajudam no que é possível. Mas, se se revelar que as limitações da plataforma são impossíveis de ultrapassar, os utilizadores são avisados deste facto e a funcionalidade é adicionada/estendida às restantes plataformas.
+- Se uma das plataformas não sustentar a(s) nova(s) funcionalidade(s) no imediato, espera-se um periodo razoável até que os programadores responsáveis possam implementá-la. Normalmente, programadores de outras plataformas/áreas ajudam no que é possível. Mas, se algo revelar que as limitações da plataforma são impossíveis de ultrapassar, os utilizadores são avisados deste facto e a funcionalidade é adicionada/estendida às restantes plataformas.
 - A funcionalidade tem que ser testada antes de aparecer numa *Release*.
 
-Para manter toda a gente a par do que está a acontecer ou quem está a tocar em que código, os membros do *Kodi* fazem questão de discutir internamente a melhor solução para cada problema, principalmente quando se fala num dos componentes principais. Para facilitar essa troca de ideias, mantêm canais privados no IRC, *slack* e no fórum, como dito anteriormente. O github também é usado, mas normalmente apenas numa fase mais avançada.
+Para manter toda a gente a par do que está a acontecer ou quem está a editar determinadas partes de código, os membros do *Kodi* fazem questão de discutir internamente a melhor solução para cada problema, principalmente quando se fala num dos componentes principais. Para facilitar essa troca de ideias, mantêm canais privados no IRC, *slack* e no fórum, como dito anteriormente. O github também é usado, mas normalmente apenas numa fase mais avançada.
 
-Todos os membros da *Team Kodi*, independentemente da sua área de "*expertise*", têm voto sobre o caminho a seguir e as ideias são debatidas até à exaustão. No final, ganha a voz da maioria mas é dado mais "peso" à opinião dos programadores principais dessa área, já que são eles que melhor compreendem o caminho a seguir.
+Todos os membros da *Team Kodi*, independentemente da sua área de "*expertise*", têm voto sobre o caminho a seguir e as ideias são debatidas até à exaustão. No final, ganha a voz da maioria mas é dado mais "peso" à opinião dos programadores principais dessa área, já que são eles que melhor compreendem o caminho a seguir e os ricos a ele associados.
 
 ### Validação de Requisitos
 
-A validação de Requisitos trata, tal como o seu nome indica, da validação quanto à consistência, precisão e contextualização de requisitos levantados nos processos de levantamento e de análise e negociação de requisitos. Após estas duas fases, é necessário verificar se o código funciona como o esperado. O [buildbot](http://jenkins.kodi.tv/) é a ferramenta que o *Kodi* utiliza para o efeito.
+A Validação de Requisitos trata, tal como o seu nome indica, da validação quanto à consistência, precisão e contextualização de requisitos levantados nos processos de levantamento e de análise e negociação de requisitos. Após estas duas fases, é necessário verificar se o código funciona como o esperado. O [buildbot](http://jenkins.kodi.tv/) é a ferramenta que o *Kodi* utiliza para o efeito.
 
 As novas funcionalidades têm que ser testadas antes de aparecer numa *Realease*, e para isso, o *Kodi* conta com alguns milhares de beta-testers não oficiais, dispostos a testar as *Alphas*, *Betas* e *RCs*. 
 
-Para o tratamento de *pull requests*, a equipa do *Kodi* usa um bot para testar a build do projeto nas várias plataformas e fazer *merge* no *branch master* a partir do momento em que não existirem problemas durante a compilação. Quando tudo se encontra terminado, o *Release Manager* faz um *feature freze*, em que não são adicionadas mais funcionalidades ao código, e decide quando lançar as versões *Beta* e *Release Candidate* para serem testadas pelos utilizadores antes da versão final e corrigir o maior número de bugs possíveis. Quando a versão se encontra estável, é lançada a versão final. Se mais tarde forem encontrados bugs são lançadas versões bugfix release, como por exemplo a versão 15.1.
+Para o tratamento de *pull requests*, a equipa do *Kodi* usa um bot para testar a build do projeto nas várias plataformas e fazer *merge* no *branch master* a partir do momento em que não existirem problemas durante a compilação. Quando tudo se encontra terminado, o *Release Manager* faz um *feature freeze*, em que não são adicionadas mais funcionalidades ao código, e decide quando lançar as versões *Beta* e *Release Candidate* para serem testadas pelos utilizadores antes da versão final e corrigir o maior número de bugs possíveis. Quando a versão se encontra estável, é lançada a versão final. Se mais tarde forem encontrados bugs são lançadas versões bugfix release, como por exemplo a versão 15.1.
 
 Para além disto, também existem compilações diárias (*nightly builds*) e mensais (*monthly builds*).
 
@@ -70,3 +70,9 @@ Como o *Kodi* utiliza um modelo [RERO](https://en.wikipedia.org/wiki/Release_ear
 
 
 ### Análise Crítica
+
+Observando o historial do desenvolvimento do *Kodi*, podemos concluir que definição rigorosa de requisitos para a aplicação, bem como os métodos adotados para os salvaguardar, tem vindo a influenciar positivamente a sua criação e crescimento.
+
+Com diversas ferramentas e procedimentos para o controlo das ações executadas por todos os colaboradores do projeto, a equipa *Kodi* é capaz de gerir todas as alterações propostas, contando ainda com um considerável número de *testers* que poderão garantir a robustez do funcionamento do software apresentado.
+
+Analisando os métodos adotados, será de destacar o desempenho desta equipa de desenvolvedores, que desde a criação do produto, tem vindo a apresentar novas versões da aplicação com regularidade, incluindo funcionalidades e extras especificamente dedicados às ideias dos seus utilizadores. A implementação do *bot*, uma poderosa ferramento para o controlo das modificações realizadas, foi crucial para garantir o sucesso do projeto, bem como a exploração das potencialidades do *Git*.
