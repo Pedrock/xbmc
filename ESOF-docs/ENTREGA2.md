@@ -38,7 +38,8 @@ Dada a dificuldade em manter mais de 10 milhões de utilizadores satisfeitos, so
  * Se uma das plataformas não sustentar a(s) nova(s) funcionalidade(s) no imediato, espera-se um periodo razoável até que os programadores responsáveis possam implementá-la. Normalmente, programadores de outras plataformas/áreas ajudam no que é possível. Mas, se algo revelar que as limitações da plataforma são impossíveis de ultrapassar, os utilizadores são avisados deste facto e a funcionalidade é adicionada/estendida às restantes plataformas.
  * A funcionalidade tem que ser testada antes de aparecer numa *Release*.
 
-Para manter toda a gente a par do que está a acontecer ou quem está a editar determinadas partes de código, os membros do *Kodi* fazem questão de discutir internamente a melhor solução para cada problema, principalmente quando se fala num dos componentes principais.
+Para manter toda a gente a par do que está a acontecer ou quem está a editar determinadas partes de código, os membros do *Kodi* fazem questão de discutir internamente a melhor solução para cada problema através de canais privados no *IRC*, [*Slack*](https://slack.com/) ou então no próprio fórum do *Kodi*.
+Este diálogo é extremamente importante principalmente quando alterações importantes estão a ser devenvolvidas numa das principais componentes do *Kodi*.
 
 Todos os membros da *Team Kodi*, independentemente da sua área de "*expertise*", têm voto sobre o caminho a seguir e as ideias são debatidas até à exaustão. No final, ganha a maioria, mas é dado mais peso à opinião dos programadores principais dessa área, já que são eles que melhor compreendem o caminho a seguir e os ricos a ele associados.
 
@@ -59,7 +60,7 @@ A Validação de Requisitos trata, tal como o seu nome indica, da validação qu
 
 As novas funcionalidades têm que ser testadas antes de aparecer numa *Realease*, e para isso, o *Kodi* conta com alguns milhares de beta-testers não oficiais, dispostos a testar as *Alphas*, *Betas* e *Release Candidates*. 
 
-Para o tratamento de *pull requests*, a equipa do *Kodi* revê o código e usa o [*buildbot* Jenkins](http://jenkins.kodi.tv/) para testar a build do projeto nas várias plataformas. A partir do momento em que não existirem problemas durante a compilação, fazem *merge* no *branch master*. Quando tudo se encontra terminado, o *Release Manager* faz um *feature freeze*, em que não são adicionadas mais funcionalidades ao código, e decide quando lançar as versões *Beta* e *Release Candidate* para serem testadas pelos utilizadores antes da versão final e corrigir o maior número de bugs possíveis. Quando a versão se encontra estável, é lançada a versão final. Se mais tarde forem encontrados bugs são lançadas versões bugfix release, como por exemplo a versão 15.1.
+Para o tratamento de *pull requests*, a equipa do *Kodi* revê o código e usa o [*buildbot* Jenkins](http://jenkins.kodi.tv/) para testar a do projeto nas várias plataformas. O *buildbot Jenkins* é um sucessor do [*Buildbot*](http://kodi.wiki/view/Buildbot#Buildbot) bastante melhorado que além de permitir o build para as várias plataformas, oferece também uma grande variedade de plugins que podem ser usados para futuro desenvolvimento e testing.  A partir do momento em que não existirem problemas durante a compilação, fazem *merge* no *branch master*. Quando tudo se encontra terminado, o *Release Manager* faz um *feature freeze*, em que não são adicionadas mais funcionalidades ao código, e decide quando lançar as versões *Beta* e *Release Candidate* para serem testadas pelos utilizadores antes da versão final e corrigir o maior número de bugs possíveis. Quando a versão se encontra estável,build é lançada a versão final. Se mais tarde forem encontrados bugs são lançadas versões bugfix release, como por exemplo a versão 15.1.
 
 Para além disto, também existem compilações diárias (*nightly builds*) e mensais (*monthly builds*), feitas automaticamente pelo buildbot referido anteriormente.
 
@@ -68,8 +69,8 @@ Como o *Kodi* utiliza um modelo [RERO](https://en.wikipedia.org/wiki/Release_ear
 
 ### Análise Crítica
 
-Observando o histórico de desenvolvimento do *Kodi*, podemos concluir que definição rigorosa de requisitos para a projeto, bem como os métodos adotados para os salvaguardar, tem vindo a influenciar positivamente o seu crescimento.
+Observando o histórico de desenvolvimento do *Kodi*, podemos concluir que definição rigorosa de requisitos para o projeto, bem como os métodos adotados para os salvaguardar, tem vindo a influenciar positivamente o seu crescimento.
 
-Através de diversas ferramentas e procedimentos para o controlo das ações executadas por todos os colaboradores do projeto, a equipa *Kodi* é capaz de gerir todas as alterações propostas, contando ainda com um considerável número de *testers* que poderão garantir a robustez do funcionamento do software.
+Através de diversas ferramentas e procedimentos para o controlo das ações executadas por todos os colaboradores do projeto, a equipa *Kodi* é capaz de gerir todas as alterações propostas. Para isto, o *Kodi* depende sobretudo de uma comunidade muito ativa, tanto *testers* que contribuem para a robustez do funcionamento do software bem como de utilizadores que reportam vários problemas associados ao software. 
 
 Analisando os métodos adotados, será de destacar o desempenho desta equipa de desenvolvedores, que desde a criação do programa, têm vindo a apresentar novas versões da aplicação com regularidade, incluindo funcionalidades e extras especificamente dedicados às ideias dos seus utilizadores. A implementação do *buildbot*, uma poderosa ferramenta para o controlo das modificações realizadas, foi crucial para garantir o sucesso do projeto, bem como a exploração das potencialidades do *Git*.
