@@ -71,7 +71,7 @@ Como o *Kodi* utiliza um modelo [RERO](https://en.wikipedia.org/wiki/Release_ear
 
 Observando o histórico de desenvolvimento do *Kodi*, podemos concluir que definição algo rigorosa de requisitos para o projeto, bem como os métodos adotados para os salvaguardar, têm vindo a influenciar positivamente o seu crescimento.
 
-Com este crescimento consegue apresentar sempre novas funcionalidades, como por exemplo, a integração da componente *RetroPlayer*. Esta irá permitir transformar o *Kodi* numa consola de jogos de jogos retro, através de alguns add-nos e permitindo o uso de diversos tipos de controlares, como comandos e joysticks.
+Com este crescimento consegue apresentar sempre novas funcionalidades, como por exemplo, a integração da componente *RetroPlayer*. Esta irá permitir transformar o *Kodi* numa consola de jogos de jogos retro, através de alguns add-nos e permitindo o uso de diversos tipos de controlares, como comandos e *joysticks*.
 
 Através de diversas ferramentas e procedimentos para o controlo das ações executadas por todos os colaboradores do projeto, a equipa *Kodi* é capaz de gerir todas as alterações propostas. Para isto, o *Kodi* depende sobretudo de uma comunidade muito ativa, incluíndo *testers* que contribuem para a robustez do software, bem como de utilizadores que reportam vários problemas encontrados no mesmo. 
 
