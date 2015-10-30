@@ -2,8 +2,12 @@
 
 ## *Kodi* - Arquitetura 4+1
 
-### *Logical view* 
-Diagrama UML de classes
+### *Perspetiva Lógica* 
+	A perspetiva lógica é orientada para a funcionalidade que o sistema fornece aos utilizadores.
+
+	*Diagrama UML de Classes*
+	*Diagrama UML de Comunicação*
+	*Diagrama de Sequência*
 
 ### *Development view* 
 Diagrama UML de componentes
