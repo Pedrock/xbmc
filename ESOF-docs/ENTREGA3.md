@@ -11,12 +11,9 @@
 
 ### *Perspetiva de Implementação*
 
-	Nesta abordagem, o objetivo será a representação e ilustração do projeto segundo uma perspetiva do programador, tendo 
-como finalidade a supervisão do software desenvolvido.
+	Nesta abordagem, o objetivo será a representação e ilustração do projeto segundo uma perspetiva do programador, tendo  como finalidade a supervisão do software desenvolvido.
 
-	Recorre-se, portanto, a Diagramas UML de Componentes, usados para ilustrar estruturas de sistemas complexos, 
-demonstrando a forma como diferentes componentes
-do projeto se encontram interligados.
+	Recorre-se, portanto, a Diagramas UML de Componentes, usados para ilustrar estruturas de sistemas complexos, demonstrando a forma como diferentes componentes do projeto se encontram interligados.
 
 (...)
 
