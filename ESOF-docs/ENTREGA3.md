@@ -17,8 +17,12 @@ Recorre-se, portanto, a Diagramas UML de Componentes, usados para ilustrar estru
 ### *Process view* 
 Diagrama UML de deployment
 
-### *Deployment View* 
+### Vista de *Deployment* 
+
+Os diagramas de *deployment* têm como objectivo representar a relação entre as componentes de software e hardware do sistema. Possibilitando assim, mostrar de que modo os artefactos de um sistema são distribuídos em nós de hardware.
 
 ![Kodi - Image](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/deployment-view.png)
+
+Como podemos ver a partir do diagrama anterior, o utilizador, a partir do *Kodi*, acede ao repositorio oficial de *addons* deste para procurar atualizações para os *addons* que o utilizador tem instalado, ou para instalar novos. O utilizador pode também aceder através de um *browser* ao *website* oficial para fazer download de uma das compilações do programa, as quais se encontram na base de dados do *Kodi*. Sendo estas são compiladas pelas máquinas com o [*buildbot* Jenkins](http://jenkins.kodi.tv/).
 
 ### Cenários
