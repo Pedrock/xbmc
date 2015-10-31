@@ -2,11 +2,11 @@
 
 ## *Kodi* - Arquitetura 4+1
 
-### *Perspetiva Lógica* 
+### Vista Lógica 
 A perspetiva lógica é orientada para a funcionalidade que o sistema fornece aos utilizadores.
 
 
-### *Perspetiva de Implementação*
+### Vista de Implementação
 
 Nesta abordagem, o objetivo será a representação e ilustração do projeto segundo uma perspetiva do programador, tendo  como finalidade a supervisão do software desenvolvido.
 
@@ -14,8 +14,8 @@ Recorre-se, portanto, a Diagramas UML de Componentes, usados para ilustrar estru
 
 (...)
 
-### *Process view* 
-Diagrama UML de deployment
+### Vista de Processo
+
 
 ### Vista de *Deployment* 
 
