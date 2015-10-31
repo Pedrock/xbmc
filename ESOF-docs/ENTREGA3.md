@@ -5,9 +5,6 @@
 ### *Perspetiva Lógica* 
 A perspetiva lógica é orientada para a funcionalidade que o sistema fornece aos utilizadores.
 
-*Diagrama UML de Classes*
-*Diagrama UML de Comunicação*
-*Diagrama de Sequência*
 
 ### *Perspetiva de Implementação*
 
