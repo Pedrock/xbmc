@@ -17,7 +17,8 @@ Recorre-se, portanto, a Diagramas UML de Componentes, usados para ilustrar estru
 ### *Process view* 
 Diagrama UML de deployment
 
-### *Physical view* 
-Diagrama com conjunto interações, atividade e sequência dos processos executados durante a execução do projeto
+### *Deployment View* 
+
+![Kodi - Image](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/deployment-view.png)
 
 ### Cenários
