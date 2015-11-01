@@ -50,6 +50,10 @@ Esta vista relaciona todas as outras vistas, anteriormente descritas, do modelo 
 
 ![Kodi - Image](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/use-case-diagram.png)
 
+
+O *Kodi* possibilita a visualização de filmes e fotografias, desde que estes se encontrem adicionados à biblioteca de filmes/fotografias do utilizador. O mesmo se passa para ouvir músicas. É um *media center* que tem como objetivo ser utilizado numa televisão na sala de estar, desempenhando o papel de uma *box* para a TV. Além disto, a plataforma permite a configuração do software,o que permite ao utilizador poder escolher, por exemplo, o tema que mais gostar, adicionar novos *addons* e *plug-ins* que lhe permitam adicionar novas funcionalidades ao programa, tais como ir buscar media a sites externos, como ao Youtube, por exemplo. Estes *addons* são atualizados automaticamente pelo programa pelo uso de repositórios.
+
+
 ### Análise Crítica
 
 
