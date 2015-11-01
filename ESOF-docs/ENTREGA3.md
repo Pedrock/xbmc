@@ -25,11 +25,11 @@ Analisando o diagrama, conclui-se que, de facto, a estruturação do projeto é 
 
 Um dos princípios do *Kodi* baseia-se na utilização de módulos de software independentes. A introdução de módulos de tal forma adaptados, permite uma melhor organização e manutenção do código. Desta forma, mesmo que um módulo apresente falhas de compilação, o projeto é capaz de executar com as restantes funcionalidades que não o utilizem. Estes módulos podem ser encarados como blocos que interagem entre si, embora distinguindo-s pelas atividades que lhes são atribuidas. Por sua vez, estes blocos são organizados em grupos funcionais independentes.
 
-Seguidamente apresenta-se uma perspetiva deste design modular do *Kodi*:
+Seguidamente, apresenta-se uma perspetiva deste design modular do *Kodi*:
 
 ![Kodi - Image](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/modular_design.png)
 
-Como se pode observar, os blocos modulares dividem a arquitetura do projeto segundo uma perspetiva vertical. Desta forma, demonstra-se a independência dos diferentes blocos, segundo camadas minuciosamente estruturadas. Este modelo de organização do software previne, por exemplo, a redefinição de uma função múltiplas vezes. Uma outra vantagem será, também, a incrivel evolução na eficiência de desenvolvimento do programa, uma vez que os módulos bem estabelecidos e diferenciados permitem uma fácil manutenção do código e implementação de novas funcionalidades.
+Os blocos modulares dividem a arquitetura do projeto segundo uma perspetiva vertical. Desta forma, demonstra-se a independência dos diferentes blocos, segundo camadas minuciosamente estruturadas. Este modelo de organização do software previne, por exemplo, que uma função seja redefinida múltiplas vezes. Uma outra vantagem será, também, a incrivel evolução na eficiência de desenvolvimento do programa, uma vez que os módulos bem estabelecidos e diferenciados permitem uma fácil manutenção do código e implementação de novas funcionalidades.
 
 ### Vista de Processo
 
