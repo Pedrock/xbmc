@@ -1,12 +1,14 @@
 # Relatório ESOF - 3
 
-## *Kodi* - Arquitetura 4+1
+## *Kodi* - Arquitetura de Software
+
+(introduçao arquitetura 4+1)
 
 ### Vista Lógica 
 A perspetiva lógica é orientada para a funcionalidade que o sistema fornece aos utilizadores.
 
 
-### *Perspetiva de Implementação*
+### Vista de Implementação
 
 
 Nesta abordagem, o objetivo será a representação e ilustração do projeto segundo uma perspetiva do programador, tendo  como finalidade a supervisão do software desenvolvido.
@@ -47,5 +49,7 @@ Como podemos ver a partir do diagrama anterior, o utilizador, a partir do *Kodi*
 Esta vista relaciona todas as outras vistas, anteriormente descritas, do modelo 4+1. É aqui que podemos observar as sequências de interações entre os objectos(neste caso o utilizador) e os diferentes processos.
 
 ![Kodi - Image](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/use-case-diagram.png)
+
+### Análise Crítica
 
 
