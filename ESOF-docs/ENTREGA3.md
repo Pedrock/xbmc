@@ -2,8 +2,8 @@
 
 ## *Kodi* - Arquitetura de Software
 
-Um dos modelos para organizar as diferentes visões arquitecturais em engenharia de *software* é o modelo de aruitetura 4+1. Este organiza a descrição da arquitectura de software em 5 visões concorrentes. Cada visão trata um conjunto de objectivos específicos do projecto arquitetural de acordo com os diferentes *stakeholders* (utilizadores, programadores, etc). 
-As visões propostas pelo modelo são as: a vista lógia, a vista de implementação, a vista do processo, a vista de *deployment* a vista de casos de uso. Sendo a quinta apenas para ilustrar e validar as demais. 
+Um dos modelos para organizar as diferentes visões arquitecturais em engenharia de *software* é o modelo de arquitetura 4+1. Este organiza a descrição da arquitectura de software em 5 visões concorrentes. Cada visão trata um conjunto de objectivos específicos do projecto arquitetural, de acordo com os diferentes *stakeholders* (utilizadores, programadores, etc). 
+As visões propostas pelo modelo são: a vista lógia, a vista de implementação, a vista do processo, a vista de *deployment* e a vista de casos de uso. Sendo a quinta apenas para ilustrar e validar as demais. 
 
 
 ### Vista Lógica 
