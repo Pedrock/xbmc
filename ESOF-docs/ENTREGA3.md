@@ -58,4 +58,10 @@ O *Kodi* possibilita a visualização de filmes e fotografias, desde que estes s
 
 ### Análise Crítica
 
+Conclui-se, no final deste estudo, que o *Kodi* apresenta uma arquitetura elaborada e optimamente estruturada.
 
+Entre as diversas perspetivas abordadas, é possivel observar que a equipa do *Kodi* luta por manter o produto tão independente quanto possível. Para tal, recorrem a uma estrutura modular. Isto permite uma alteração e agregação de novas *features* de forma rápida, fácil e eficaz, suportando os diversos sistemas operativos a que se encontra associado.
+
+É, no entanto, visível que a arquitetura do Kodi tem sido moldada a par das restrições impostas pelas diferentes plataformas, mas com um futuro de prosperidade em mente. Através do uso de ferramentas específicas como o python para os add-ons, as novas funcionalidades podem ser adicionadas sem ser necessário recompilar o código completo ou sem ter que se preocupar com determinadas dependências de sistemas específicos.
+
+Relativamente aos resultados aqui apresentados, convém salientar que grande parte dos diagramas apresentados ao longo deste relatório foram construídos pelos respetivos autores do documento, recorrendo a documentação fidedigna do projeto *Kodi*. Contudo, é de considerar que diferentes interpretações poderão levar a representações distintas.
