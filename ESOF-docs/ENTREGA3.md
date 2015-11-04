@@ -14,20 +14,16 @@ O seguinte diagrama de *packages* descreve as depêndencias entre os principais 
 Devido à complexidade do *Kodi*, no diagrama acima foram apenas colocados os pacotes de maior relevância, tendo sido ainda agrupados alguns.
 Como a maior parte do código se encontra em c++, na qual não existem *packages*, guiámo-nos pelos includes das classes e interpretámos como pacotes as pastas onde se encontravam as classes.
 
-Assim, dividimos o *Kodi* em 13 pacotes, são eles:
+Assim, organizàmos o *Kodi* em 9 pacotes, são eles:
   - **_Addons_**
   - **_Utils_**
-  - **_CDrip_**
-  - **_Dialogs_**
   - **_GUI_**
   - **_Input_**
   - **_Network_**
   - **_Cores_**
   - **_FileSystem_**
-  - **_Media_**
   - **_Playlists_**
   - **_Peripherals_**
-  - **_Main_**
 
 ### Vista de Implementação
 
