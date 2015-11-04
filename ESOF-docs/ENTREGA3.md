@@ -9,6 +9,7 @@ As visões propostas pelo modelo são: a **vista lógia**, a **vista de implemen
 ### Vista Lógica 
 A perspetiva lógica é orientada para a funcionalidade que o sistema fornece aos utilizadores.
 
+![Kodi - Image](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/logical-view.png)
 
 ### Vista de Implementação
 
