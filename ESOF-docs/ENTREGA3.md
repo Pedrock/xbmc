@@ -11,19 +11,19 @@ O seguinte diagrama de *packages* descreve as depêndencias entre os principais 
 
 ![Kodi - Image](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/logical-view.png)
 
-Devido à complexidade do *Kodi*, no diagrama acima foram apenas colocados os pacotes de maior relevância, tendo sido ainda agrupados alguns.
+Devido à complexidade do *Kodi*, no diagrama acima foram apenas colocados os pacotes de maior relevância, tendo sido ainda alguns agrupados.
 Como a maior parte do código se encontra em c++, na qual não existem *packages*, guiámo-nos pelos includes das classes e interpretámos como pacotes as pastas onde se encontravam as classes.
 
 Assim, organizàmos o *Kodi* em 9 pacotes, são eles:
-  - **_Addons_** - Disponibiliza a API para os *addons* do *Kodi*
-  - **_Utils_** - Representa as funcionalidades auxiliares utilizadas, que são comuns aos restantes pacotes
+  - **_Addons_** - Disponibiliza a API para os *addons* do *Kodi*.
+  - **_Utils_** - Representa as funcionalidades auxiliares utilizadas, que são comuns aos restantes pacotes.
   - **_GUI_** - Constitui a interface para o utilizador e implementa os textos que acompanham as imagens e videos. Neste pacote foram incluidos os pacotes "guiinfo", "guilib", "interfaces" e "dialogs".
-  - **_Input_** - Trata dos *inputs* do utilizador
-  - **_Network_** - Diponibiliza a ligação em rede e à internet
-  - **_Cores_** - Representa visualização de videos, imagens e programas, assim como o audio de musicas. Este pacote é também constituido pelo pacotes "music", "video", "pictures" e "media".
-  - **_FileSystem_** - Fornece as funcionalidades do sistema de arquivos do ficheiro, controlando o armazenamento e controlo de dados
-  - **_Playlists_** - Representa as sequencias de musicas criadas pelo utilizador
-  - **_Peripherals_** - Fornece as funções de comunicção com os perifericos do computor
+  - **_Input_** - Trata dos *inputs* do utilizador.
+  - **_Network_** - Diponibiliza a ligação em rede e à internet.
+  - **_Cores_** - Representa visualização de videos, imagens e programas, assim como o áudio de musicas. Este pacote é também constituido pelo pacotes "music", "video", "pictures" e "media".
+  - **_FileSystem_** - Fornece as funcionalidades do sistema de arquivos do ficheiro, controlando o armazenamento e controlo de dados.
+  - **_Playlists_** - Representa as sequencias de musicas criadas pelo utilizador.
+  - **_Peripherals_** - Fornece as funções de comunicação com os periféricos do computador.
 
 ### Vista de Implementação
 
