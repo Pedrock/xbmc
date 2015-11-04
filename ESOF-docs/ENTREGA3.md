@@ -24,7 +24,6 @@ Assim, organizámos o *Kodi* em 9 pacotes, são eles:
   - **_FileSystem_** - Fornece as funcionalidades do sistema de arquivos do ficheiro, controlando o armazenamento e controlo de dados.
   - **_Playlists_** - Representa as sequencias de musicas criadas pelo utilizador.
   - **_Peripherals_** - Fornece as funções de comunicação com os periféricos do computador.
-  - 
 
 ### Vista de Implementação
 
