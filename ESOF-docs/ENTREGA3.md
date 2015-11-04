@@ -15,15 +15,15 @@ Devido à complexidade do *Kodi*, no diagrama acima foram apenas colocados os pa
 Como a maior parte do código se encontra em c++, na qual não existem *packages*, guiámo-nos pelos includes das classes e interpretámos como pacotes as pastas onde se encontravam as classes.
 
 Assim, organizàmos o *Kodi* em 9 pacotes, são eles:
-  - **_Addons_**
-  - **_Utils_**
-  - **_GUI_**
-  - **_Input_**
-  - **_Network_**
-  - **_Cores_**
-  - **_FileSystem_**
-  - **_Playlists_**
-  - **_Peripherals_**
+  - **_Addons_** - Disponibiliza a API para os *addons* do *Kodi*
+  - **_Utils_** - Representa as funcionalidades auxiliares utilizadas, que são comuns aos restantes pacotes
+  - **_GUI_** - Constitui a interface para o utilizador e implementa os textos que acompanham as imagens e videos
+  - **_Input_** - Trata dos *inputs* do utilizador
+  - **_Network_** - Diponibiliza a ligação em rede e à internet
+  - **_Cores_** - Representa visualização de videos, imagens e programas, assim como o audio de musicas
+  - **_FileSystem_** - Fornece as funcionalidades do sistema de arquivos do ficheiro, controlando o armazenamento e controlo de dados
+  - **_Playlists_** - Representa as sequencias de musicas criadas pelo utilizador
+  - **_Peripherals_** - Fornece as funções de comunicção com os perifericos do computor
 
 ### Vista de Implementação
 
