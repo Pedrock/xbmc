@@ -52,7 +52,7 @@ Os blocos modulares dividem a arquitetura do projeto segundo uma perspetiva vert
 
 ### Vista de Processo
 
-![Kodi - Image](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/process-view.bmp)
+![Kodi - Image](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/process-view.png)
 
 ### Vista de *Deployment* 
 
