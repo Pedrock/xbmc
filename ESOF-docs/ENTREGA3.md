@@ -54,7 +54,7 @@ Os blocos modulares dividem a arquitetura do projeto segundo uma perspetiva vert
 
 A vista de Processo explica os vários processos do sistema bem como as suas interações. Esta é caracterizada por diagramas de atividades, que podem ser utilizados para descrever esses processos e a forma como comunicam.
 
-De seguida encontra-se o diagrama de atividades do *Kodi*:
+De seguida encontra-se apresentado o diagrama de atividades do *Kodi*:
 
 ![Kodi - Image](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/process-view.png)
 
