@@ -52,7 +52,9 @@ Os blocos modulares dividem a arquitetura do projeto segundo uma perspetiva vert
 
 ### Vista de Processo
 
+A vista de processo tem por objetivo demonstrar como é que o sistema é composto e interage entre os processos em tempo real. Para isso recorremos a um diagrama de atividades para assim ser mais fácil observar o fluxo de dados e de controlo de uma determinada atividade para outra  ao longo da sua execução.
 ![Kodi - Image](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/process-view.bmp)
+Neste diagrama de atividades pode observar-se o comportamento do Kodi durante a sua execução por um utilizador. 
 
 ### Vista de *Deployment* 
 
