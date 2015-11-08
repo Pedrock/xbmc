@@ -57,7 +57,9 @@ A vista de processo tem por objetivo demonstrar como é que o sistema é compost
 ![Kodi - Image](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/process-view.png)
 
 Neste diagrama de atividades pode observar-se o comportamento do Kodi durante a sua execução por um utilizador.
+
 Quando este pretende ouvir uma musica, ver um vídeo, ou uma imagem, é feito uma query à base de dados. Esta query vai retornar uma lista dos conteúdos disponíveis e a partir daí o utilizador vai selecionar o que desejar. Este pode também remover ou adicionar elementos à base de dados, a partir da interface intuitiva do Kodi. 
+
 O utilizador pode também gerir os conteúdos dos addons inerentes à sua aplicação, podendo adicionar e remove-los. Para isto faz uma ligação aos repositórios instalados, de modo a saber que conteúdos pode adicionar e assim fazer download do que pretende. Ao consultar conteúdos externos ao Kodi, como a programação de TV ou a meteorologia, a aplicação faz uma ligação aos serviços que o addon implementa. Desta forma o utilizador consegue obter a informação e os conteúdos que pretende. 
 
 
