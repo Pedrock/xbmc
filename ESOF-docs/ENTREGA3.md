@@ -64,7 +64,7 @@ A vista de *deployment* têm como objectivo representar a relação entre as com
 
 ![Kodi - Image](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/deployment-view.png)
 
-Como podemos ver a partir do diagrama anterior, o utilizador, a partir do *Kodi*, acede ao repositório oficial de *addons* para procurar atualizações para os *addons* que o utilizador tem instalado, ou para instalar novos. O utilizador pode também aceder através de um *browser* ao *website* oficial para fazer download de uma das compilações do programa, as quais se encontram na base de dados do *Kodi*. Estas são compiladas pelas máquinas com o [*buildbot* Jenkins](http://jenkins.kodi.tv/).
+Como podemos ver a partir do diagrama de *deployment* anterior, o utilizador, a partir do *Kodi*, acede ao repositório oficial de *addons* para procurar atualizações para os *addons* que o utilizador tem instalado, ou para instalar novos. O utilizador pode também aceder através de um *browser* ao *website* oficial para fazer download de uma das compilações do programa, as quais se encontram na base de dados do *Kodi*. Estas são compiladas pelas máquinas com o [*buildbot* Jenkins](http://jenkins.kodi.tv/).
 
 ### Vista de Casos de Uso
 
