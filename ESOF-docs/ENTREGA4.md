@@ -1,6 +1,6 @@
 # Relatório ESOF - 4
 
-## *Kodi* - Testes de Software
+## *Kodi* - Verificação e Validação de Software
 
 ### Introdução
 
