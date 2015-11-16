@@ -32,6 +32,12 @@
 
 ### Estatisticas de Teste
 
+( Number of tests (# tests unitários; # tests de sistema, # tests de desempenho, ...)
+     % coverage (given by tools like EclEmma)
+     Code coverage: is it any good? (see http://avandeursen.com/2013/11/19/test-coverage-not-for-managers/) )
+
 ### Correção de um *Bug*
+
+([Opcional] Take a bug report, create test cases to reproduce it, and fix it, eventually using automated software fault diagnosis techniques. (grade >18) )
 
 ### Análise Crítica
