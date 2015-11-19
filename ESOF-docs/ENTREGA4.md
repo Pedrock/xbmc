@@ -4,7 +4,9 @@
 
 ### Introdução
 
-Neste relatório iremos analisar o *Kodi* relativamente à sua validação e verificação do software. O objectivo da validação e verificação do *software* é assegurar que este cumpre as necessidades dos diferentes *stakeholders*, como os utilizadores finais, programadores e gestores de projeto, ou seja, a confirmação de que este cumpre os seus requisitos.
+Neste relatório iremos analisar o *Kodi* relativamente à sua validação e verificação do software. 
+
+O objectivo da validação e verificação do *software* é assegurar que este cumpre as necessidades dos diferentes *stakeholders*, como os utilizadores finais, programadores e gestores de projeto, ou seja, a confirmação de que este cumpre os seus requisitos.
 
 Enquanto que a verificação envolve a análise do sistema de modo a que este cumpra os seus requisitos funcionais, a validação engloba a confirmação de que o sistema atende as necessidades e expectativas do cliente.
 No entanto, apesar destes dois processos serem diferentes, eles estão intimamente ligados e são bastante dependentes um do outro. 
