@@ -31,7 +31,7 @@ Assim, a partir da [página de testes](http://jenkins.kodi.tv/view/All/job/TestM
 
 Para além do descrito no parágrafo anterior, é ainda possivel observar no *output* dos resultados dos testes na consola, para cada [plataforma](http://jenkins.kodi.tv/job/TestMulti-All/), várias informações acerca dos mesmos. Como é o caso do [*Windows*](http://jenkins.kodi.tv/job/WIN-32/6752/console), em nos resultados do último *build* de testes passaram 475 dos 476 testes existentes na altura.
 
-[[IMAGEM]]
+![Kodi - Image](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/resultado_WIN-32.JPG)
 
 Para além de toda a informação referida anteriormene, aquando de algum erro podemos ver os detalhes e o *Stack Trace* do mesmo, como é o exemplo o [erro referido no parágrafo anterior](http://jenkins.kodi.tv/job/WIN-32/6752/testReport/).
 
