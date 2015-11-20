@@ -41,7 +41,7 @@ Visto isto, concluímos que a observabilidade nos diferentes componentes do *Kod
 
 Devido à complexidade que o *Kodi* apresenta, a maior parte das classes dos diferentes pacotes faz uso de outras classes e métodos pertencentes a outros pacotes. Estando estas intimamente ligadas e interdependentes, ao testarmos um componente de um determinado módulo, estamos também a testar, indiretamente, outros componentes de diferentes módulos. 
 
-Assim, concluímos que o *Kodi* tem um baixo grau de isolabilidade nos módulos que fazem uso de componentes de outros módulos, pois o sucesso de um teste a um determinado módulo depende não só de funções desse módulo mas também do sucessos das funções utilizadas, pertencentes a outros módulos. Como a maior parte dos testes do *software* do *Kodi* são referentes a módulos mais abrangentes e por isso também de maior importância, podemos considerar que, no geral, o *Kodi* tem um baixo grau de isolabilidade.
+Assim, concluímos que o *Kodi* tem um baixo grau de isolabilidade nos módulos que fazem uso de componentes de outros módulos, pois o sucesso de um teste a um determinado módulo depende não só das funções que estão a ser diretamente testadas, mas também do sucessos das funções utilizadas por essa função, pertencentes a outros módulos. Como a maior parte dos testes de *software* do *Kodi* são referentes a módulos mais abrangentes e por isso também de maior importância, podemos considerar que, no geral, o *Kodi* tem um baixo grau de isolabilidade.
 
 
 #### Separação de Funcionalidades
