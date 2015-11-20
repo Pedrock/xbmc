@@ -15,11 +15,15 @@ Primeiramente iremos abordar o grau de testabilidade do *software*, onde iremos 
 
 ### Grau de Testabilidade do Software
 
-O grau de testabilidade do software analisa o quão fácil é de testar os diferentes componentes deste. Devido à complexidade que o *Kodi* apresenta os testes de software são distribuidos pelos seus diferentes módulos. Deste modo torna-se mais fácil gerir a qualidade destes. 
+O grau de testabilidade do software analisa o quão fácil é de testar os diferentes componentes deste. Devido à complexidade que o *Kodi* apresenta os testes de *software* são distribuidos pelos seus diferentes módulos e pelas suas funcionalidades. Deste modo torna-se mais fácil gerir a qualidade destes. 
+
+Este, usa o [*buildbot Jenkins*](http://jenkins.kodi.tv/) para testar a build do projeto nas várias plataformas suportadas.
 
 #### Controlabilidade
 
-(The degree to which it is possible to control the state of the component under test (CUT) as required for testing.)
+O *Kodi* contém classes especificas para os seus testes de *software*. Devido à complexidade da plataforma, cada classe de teste está encarregue por testar cada componente, facilitando e evidenciando a importancia da realização dos mesmos. Os testes relativos ao *Kodi* são realizados ao nivel da classe.
+
+No que diz respeito à controlabilidade dos componentes sob teste (CUT - *Component Under Test*), ao analisarmos em melhor promenor as funções de teste, conseguimos constatar que é possivel, num dado instante, aceder às propriedades de um objecto, conseguindo asdeste modo ter um maior controlo sob o *software*, que permite uma maior automização e otimização dos testes. 
 
 #### Observabilidade
 
@@ -46,6 +50,8 @@ O grau de testabilidade do software analisa o quão fácil é de testar os difer
 ( Number of tests (# tests unitários; # tests de sistema, # tests de desempenho, ...)
      % coverage (given by tools like EclEmma)
      Code coverage: is it any good? (see http://avandeursen.com/2013/11/19/test-coverage-not-for-managers/) )
+     
+Atualmente, o *Kodi* conta com um total de 598 testes, sendo que estes se encontram repartidos por diferentes classes que representam as funcionalidades dos componentes que pretendemos testar, como podemos observar em [*Kodi* - *All Tests*](http://jenkins.kodi.tv/job/TestMulti-All/lastCompletedBuild/testReport/(root)). 
 
 ### Correção de um *Bug*
 
