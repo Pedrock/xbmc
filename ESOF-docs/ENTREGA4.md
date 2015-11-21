@@ -68,16 +68,16 @@ Desta forma, concluimos que, no que toca à Compreensibilidade, o *Kodi* apresen
 (The degree to which the use of diverse technologies requires to use diverse test methods and tools in parallel.)
 
 O *Kodi*, devido ao número de funcionalidades e tecnologias implementadas é bastante complexo, apresentando assim uma grande heterogeneidade. Utiliza várias tecnologias externas que lhe permitem compilar o projeto.  As principais bibliotecas e tecnologias são:
--[Cmake](https://cmake.org/)  é um sistema multiplataforma de geração automática (arquivos do tipo *makefile*).
--[NSIS](http://nsis.sourceforge.net/Main_Page) - é um sistema open source que permite criar instaladores do windows.
--[Buildbot Jenkins](http://jenkins.kodi.tv/) - Bot que permite compilar e testar código.
+* [Cmake](https://cmake.org/)  é um sistema multiplataforma de geração automática (arquivos do tipo *makefile*).
+* [NSIS](http://nsis.sourceforge.net/Main_Page) - é um sistema open source que permite criar instaladores do windows.
+* [Buildbot Jenkins](http://jenkins.kodi.tv/) - Bot que permite compilar e testar código.
 
 Para além destas, são também utilizadas outras tecnologias responsáveis pela parte multimédia do *Kodi*:
--libmpcdec-dev
--libmpeg2-4-dev
--libjasper-dev
--libjpeg-dev 
--...
+* libmpcdec-dev
+* libmpeg2-4-dev
+* libjasper-dev
+* libjpeg-dev 
+* ...
 
 Devido à sua complexidade deveria apresentar uma grande coverage de testes em todas as tecnologias, o que não é o caso. Apenas a parte mais críticas do projeto apresenta 100% de cobertura de testes unitários.
 
