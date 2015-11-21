@@ -71,7 +71,7 @@ Assim, podemos concluir que o *Kodi* apresenta uma repartição de funcionalidad
      
 Atualmente, o *Kodi* conta com um total de 598 testes, sendo que estes se encontram repartidos por diferentes classes que representam as funcionalidades dos componentes que pretendemos testar, como podemos observar em [*Kodi* - *All Tests*](http://jenkins.kodi.tv/job/TestMulti-All/lastCompletedBuild/testReport/(root)). 
 
-[*Coverage*](file:///C:/Users/CATARI~1/AppData/Local/Temp/Rar$EXa0.863/index.html)
+![*Coverage* - Image](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/coverage.png)
 
 ### Correção de um *Bug*
 
