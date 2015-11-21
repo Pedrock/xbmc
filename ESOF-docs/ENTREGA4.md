@@ -67,11 +67,26 @@ Desta forma, concluimos que, no que toca à Compreensibilidade, o *Kodi* apresen
 
 (The degree to which the use of diverse technologies requires to use diverse test methods and tools in parallel.)
 
-O *Kodi*, devido à sua complexidade, número de funcionalidades e tecnologias implementadas apresenta uma grande heterogeneidade. Devido à sua complexidade deveria apresentar um maior numero de testas a todas as tecnologias que usa o que não é o caso. Apenas a parte mais críticas do projeto apresenta 100% de cobertura de testes unitários.
+O *Kodi*, devido ao número de funcionalidades e tecnologias implementadas é bastante complexo, apresentando assim uma grande heterogeneidade. Utiliza várias tecnologias externas que lhe permitem compilar o projeto.  As principais bibliotecas e tecnologias são:
+*[Cmake](https://cmake.org/) - é um sistema multiplataforma de geração automática (arquivos do tipo *makefile*).
+*[NSIS](http://nsis.sourceforge.net/Main_Page) - é um sistema open source que permite criar instaladores do windows.
+*[Buildbot Jenkins](http://jenkins.kodi.tv/) - Bot que permite compilar e testar código.
+
+Para além destas, são também utilizadas outras tecnologias responsáveis pela parte multimédia do *Kodi*:
+*libmpcdec-dev
+*libmpeg2-4-dev
+*libjasper-dev
+*libjpeg-dev
+*...
+
+Devido à sua complexidade deveria apresentar uma grande coverage de testes em todas as tecnologias, o que não é o caso. Apenas a parte mais críticas do projeto apresenta 100% de cobertura de testes unitários.
 
 No núcleo central do projeto, são usados motores de áudio, video renderers e bibliotecas que atuam sobre DVD´s que não se encontram devidamente testadas. Com isto, o *Kodi* pode sofrer de grandes retrocessos na implementação de novas funcionalidades porque nao havendo testes nestas zonas, facilmente se podem gerar bugs que não são facilmente observáveis durante a execução do programa mas sim numa fase mais avançada. Com isto, o custo de esforço e tempo para a resolução destes bugs pode aumentar exponencialmente e impedir o progresso do projeto como foi referido anteriormente.
 
 O bot de compilação que o *Kodi* utiliza é de extrema importancia para o projeto. Como dito no [Relatório 2](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/ENTREGA2.md), este bot executa o tratamento dos pull requests e verifica se todo o código compila corretamente antes de ocorrer o merge, ou seja, testa o codigo de um pull request antes de dar o merge. Assim, permite que o código do *Kodi* não sofra de involuções.
+
+O grau em que a utilização de diversas tecnologias exige usar diversos métodos de ensaio e ferramentas em paralelo
+
 
 
 ### Estatisticas de Teste
