@@ -15,13 +15,15 @@ Primeiramente iremos abordar o grau de testabilidade do *software*, onde iremos 
 
 ### Grau de Testabilidade do Software
 
-O grau de testabilidade do software analisa o quão fácil é de testar os diferentes componentes deste. Devido à complexidade que o *Kodi* apresenta os testes de *software* são distribuidos pelos seus diferentes módulos e pelas suas funcionalidades. Deste modo torna-se mais fácil gerir a qualidade destes. 
+O grau de testabilidade do software analisa o quão fácil é de testar os diferentes componentes deste. Devido à complexidade que o *Kodi* apresenta os testes de *software* são distribuidos pelos seus diferentes módulos e funcionalidades. Deste modo torna-se mais fácil gerir a qualidade destes. 
 
 #### Controlabilidade
 
-O *Kodi* contém classes especificas para os seus testes de *software*. Devido à complexidade da plataforma, cada classe de teste está encarregue por testar cada componente, facilitando e evidenciando a importancia da realização dos mesmos. Os testes relativos ao *Kodi* são realizados ao nivel da classe.
+A controlabilidade de um *software* define o grau de controlo do estado dos componentes a serem testados. 
 
-No que diz respeito à controlabilidade dos componentes sob teste (CUT - *Component Under Test*), ao analisarmos em melhor promenor as funções de teste, conseguimos constatar que é possivel, num dado instante, aceder às propriedades de um objecto, conseguindo deste modo ter um maior controlo sob o *software*, que permite uma maior automização e otimização dos testes. 
+O *Kodi* contém classes especificas para os seus testes de *software*. Devido à complexidade da plataforma, cada classe de teste está encarregue por testar cada componente, facilitando e evidenciando a importância da realização dos mesmos. Os testes relativos ao *Kodi* são realizados ao nivel da classe.
+
+No que diz respeito à controlabilidade dos componentes sob teste (CUT - *Component Under Test*), ao analisarmos em melhor promenor as funções de teste, conseguimos constatar que é possivel, num dado instante, aceder às propriedades de um objecto, conseguindo deste modo ter um maior controlo sob o *software*, que por sua vez, permite uma maior automização e otimização dos testes. 
 
 #### Observabilidade
 
@@ -33,26 +35,26 @@ Para além do descrito no parágrafo anterior, é ainda possivel observar no *ou
 
 ![Kodi - Image](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/resultado_WIN-32.JPG)
 
-Para além de toda a informação referida anteriormene, aquando de algum erro podemos ver os detalhes e o *Stack Trace* do mesmo, como é o exemplo o [erro referido no parágrafo anterior](http://jenkins.kodi.tv/job/WIN-32/6752/testReport/).
+Para além de toda a informação referida anteriormene, aquando de algum erro podemos ver os detalhes e o *Stack Trace* do mesmo, como é exemplo o [erro referido no parágrafo anterior](http://jenkins.kodi.tv/job/WIN-32/6752/testReport/).
 
 Visto isto, concluímos que a observabilidade nos diferentes componentes do *Kodi* é bastante boa, facultando a informação necessária para a localização e resolução do erro.
 
 #### Isolabilidade
 
-Devido à complexidade que o *Kodi* apresenta, a maior parte das classes dos diferentes pacotes faz uso de outras classes e métodos pertencentes a outros pacotes. Estando estas intimamente ligadas e interdependentes, ao testarmos um componente de um determinado módulo, estamos também a testar, indiretamente, outros componentes de diferentes módulos. 
+Devido à complexidade que o *Kodi* apresenta, a maior parte das classes dos diferentes pacotes faz uso de outras classes e métodos pertencentes a outros pacotes. Estando estas intimamente ligadas e interdependentes. Assim, ao testarmos um componente de um determinado módulo, estamos também a testar, indiretamente, outros componentes de diferentes módulos. 
 
 No entanto, existem casos em que a isolabilidade dos módulos testados é melhorada por [objectos *mocks*](https://pt.wikipedia.org/wiki/Objeto_Mock), que basicamente são "falsos" objectos que simulam o comportamento de uma classe ou objeto “real” para que possamos focar o teste no componente a ser testado. Um exemplo do uso de objectos *mocks* é a classe [gtest-spi.h](https://github.com/Pedrock/xbmc/blob/master/lib/gtest/include/gtest/gtest-spi.h), que tem como objectivo testar a ferramente de teste.
 
-Assim, concluímos que o *Kodi* tem assim um baixo grau de isolabilidade na maior parte dos módulos que fazem uso de componentes de outros módulos, pois o sucesso de um teste a um determinado módulo depende não só das funções que estão a ser diretamente testadas, mas também do sucessos das funções utilizadas por essa função, pertencentes a outros módulos. Como a maior parte dos testes de *software* do *Kodi* são referentes a módulos mais abrangentes e por isso também de maior importância, podemos considerar que, no geral, o *Kodi* tem um baixo grau de isolabilidade.
+Deste modo, concluímos que o *Kodi* tem um baixo grau de isolabilidade na maior parte dos módulos que fazem uso de componentes de outros módulos, pois o sucesso de um teste a um determinado módulo depende não só das funções que estão a ser diretamente testadas, mas também do sucesso das funções utilizadas por essa função, pertencentes a outros módulos. Como a maior parte dos testes de *software* do *Kodi* são referentes a módulos mais abrangentes e por isso também de maior importância, podemos considerar que, no geral, o *Kodi* tem um baixo grau de isolabilidade.
 
 
 #### Separação de Responsabilidades
 
 No *Kodi*, a divisão de responsabilidades entre os seus diferentes componentes é uma parte bastante importante de todo o seu *software*. Devido à grande extensão da plataforma, é essencial garantir que existe uma correcta e distinta divisão de funcionalidades entre os seus diferentes módulos, de modo a que o código não se torne cada vez mais confuso e, por conseguinte, menos testável.
 
-Atualmente, os testes de *software* do *media center* encontram-se divididos em 92 módulos(representados por classes). Cada um destes módulos tem como objecto de teste várias funcionalidades, e várias sub-funcionalidades pertencentes à mesma, como é exemplo o pacote [*network*](https://github.com/Pedrock/xbmc/tree/master/xbmc/network), em que as suas funcionalidades são testadas pela classe de testes [TestWebServer.cpp](http://jenkins.kodi.tv/job/TestMulti-All/lastCompletedBuild/testReport/(root)/TestWebServer/). O pacote *network* disponibiliza a ligação em rede e à internet, sendo repartido em várias sub-funcionalidades, as quais são testadas pelas múltiplas funções de teste pertencentes à classe [TestWebServer.cpp](https://github.com/Pedrock/xbmc/blob/master/xbmc/network/test/TestWebServer.cpp).
+Atualmente, os testes de *software* do *media center* encontram-se divididos em 92 módulos (representados por classes). Cada um destes módulos tem como objecto de teste várias funcionalidades e várias sub-funcionalidades pertencentes à mesma, como é exemplo o pacote [*network*](https://github.com/Pedrock/xbmc/tree/master/xbmc/network), em que as suas funcionalidades são testadas pela classe de testes [TestWebServer.cpp](http://jenkins.kodi.tv/job/TestMulti-All/lastCompletedBuild/testReport/(root)/TestWebServer/). O pacote *network* disponibiliza a ligação em rede e à internet, sendo repartido em várias sub-funcionalidades, as quais são testadas pelas múltiplas funções de teste pertencentes à classe [TestWebServer.cpp](https://github.com/Pedrock/xbmc/blob/master/xbmc/network/test/TestWebServer.cpp).
 
-Assim, podemos concluir que o *Kodi* apresenta uma repartição de funcionalidades bem definida, o que permite um maior grau de isolabilidade de testes, assim como o aumento de eficácia destes.
+Assim, podemos concluir que o *Kodi* apresenta uma repartição de funcionalidades bem definida, o que permite um maior grau de isolabilidade de testes e o aumento de eficácia destes.
 
 
 #### Compreensibilidade
