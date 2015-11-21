@@ -86,10 +86,20 @@ Atualmente, o *Kodi* conta com um total de 598 testes, sendo que estes se encont
 
 ![Historico número de testes](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/numero-total-testes-historico.JPG)
 
+Para uma posterior análise de cobertura de testes, compilámos o *Kodi* no ubuntu, seguindo as [intruções de instalação](https://github.com/xbmc/xbmc/blob/master/docs/README.ubuntu). Para obtermos os relatório das linhas de código de cobertura dos testes compilámos o código com as seguintes flags:
+- -ftest-coverage
+- -fprofile-arcs
 
+Seguidamente corremos os testes que, por sua vez geraram vários ficheiros de cobertura por ficheiro. Para processar esses vários ficheiros e agrupá-los num só utilizámos a extenção [lcov](http://ltp.sourceforge.net/coverage/lcov.php) e por último, usámos o [genhtml](http://linux.die.net/man/1/genhtml) para criar vários ficheiros html a partir desse ficheiro de forma a tornar os dados facilmente legíveis.
 
+Os resultados obtidos foram os seguintes:
 
 ![*Coverage* - Image](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/coverage.png)
+
+A partir da imagem, podemos concluir que o *Kodi* apresenta uma má cobertura de testes, tendo apenas 4.1 % de cobertura de linhas e 8.8 % de cobertura de funções, no geral. O ficheiro que apresenta a maior cobertura de testes é o [xbmc/filesystem/test](https://github.com/Pedrock/xbmc/tree/master/xbmc/filesystem/test) com 100% de cobertura de funções e 91.7 % de cobertura de linhas, podendo dizer-se que é uma "exceção à regra" relativamente à percentagem de cobertura dos restantes ficheiros. Isto torna-se compreensivel por ser um ficheiro que está encarregue por testar as funções do pacote *filesystem*, responsável por fornecer as funcionalidades do sistema de arquivos de ficheiros, controlando o armazenamento e os respetivos dados.
+
+Apesar do *Kodi* apresentar uma cobertura de testes bastante baixa, existem funcionalidades que não são possiveis testar, como por exemplo a sua *interface* gráfica. O que poderá, de certa forma, atenuar um pouco a sua falta de cobertura.
+
 
 ### Correção de um *Bug*
 
