@@ -76,7 +76,7 @@ Para além destas, são também utilizadas outras tecnologias responsáveis pela
 *libmpcdec-dev
 *libmpeg2-4-dev
 *libjasper-dev
-*libjpeg-dev
+*libjpeg-dev 
 *...
 
 Devido à sua complexidade deveria apresentar uma grande coverage de testes em todas as tecnologias, o que não é o caso. Apenas a parte mais críticas do projeto apresenta 100% de cobertura de testes unitários.
