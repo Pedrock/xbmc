@@ -73,7 +73,14 @@ Desta forma, concluimos que, no que toca à Compreensibilidade, o *Kodi* apresen
      % coverage (given by tools like EclEmma)
      Code coverage: is it any good? (see http://avandeursen.com/2013/11/19/test-coverage-not-for-managers/) )
      
-Atualmente, o *Kodi* conta com um total de 598 testes, sendo que estes se encontram repartidos por diferentes classes que representam as funcionalidades dos componentes que pretendemos testar, como podemos observar em [*Kodi* - *All Tests*](http://jenkins.kodi.tv/job/TestMulti-All/lastCompletedBuild/testReport/(root)). Ao analisarmos o [histórico de testes do *Kodi*](http://jenkins.kodi.tv/job/TestMulti-All/lastCompletedBuild/testReport/(root)/history/), observamos que o número de testes de *software* diminuiu acentuadamente, e com isto também a durção de execução de todos os testes. Nas imagens a seguir podemos observar o histórico da duração e do número total de testes de *software* do *Kodi*.
+Atualmente, o *Kodi* conta com um total de 598 testes, sendo que estes se encontram repartidos por diferentes classes que representam as funcionalidades dos componentes que pretendemos testar, como podemos observar em [*Kodi* - *All Tests*](http://jenkins.kodi.tv/job/TestMulti-All/lastCompletedBuild/testReport/(root)). Ao analisarmos o [histórico de testes do *Kodi*](http://jenkins.kodi.tv/job/TestMulti-All/lastCompletedBuild/testReport/(root)/history/), observamos que o número de testes de *software* diminuiu acentuadamente, e com isto também a durção de execução de todos os testes. Nas imagens a seguir podemos observar o histórico da duração e do número total de testes de *software* do *Kodi*, respetivamente.
+
+![Historico duração dos testes](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/dura%C3%A7%C3%A3o-historico-testes.JPG)
+
+![Historico número de testes](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/numero-testes-historico-testes.JPG)
+
+
+
 
 ![*Coverage* - Image](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/coverage.png)
 
