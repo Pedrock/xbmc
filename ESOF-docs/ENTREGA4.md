@@ -61,9 +61,9 @@ Assim, podemos concluir que o *Kodi* apresenta uma repartição de funcionalidad
 
 O grau de compreensibilidade de um software pode ter um forte impacto no seu desenvolvimento e manutenção. Para avaliar um determinado projeto, são definidas métricas que permitem registar a qualidade do código, quanto à sua facilidade de interpretação. Nesta secção, avaliaremos o *Kodi* segundo os padrões estabelecidos por essas métricas de compreensibilidade de software.
 
-Começando pela percentagem de comentários em código, o *Kodi* não é o melhor exemplo, revelando uma falha considerável neste ponto e levando a que novos colaboradores percam mais tempo na análise do projeto. Contudo, esta falta de comentários ao código é compensada pelo recurso a funções de métrica reduzida (com reduzido número médio de linhas) e a utilização de nomes intuitivos para variáveis e funções, tornando o código mais descritivo e facilitando a sua interpretação. Relativamente à complexidade dos algoritmos utilizados, em geral, não são implementadas operações de cálculo exigente ou complexo, pelo que a melhora a compreensibilidade do projeto.
+Começando pela percentagem de comentários em código, o *Kodi* não é o melhor exemplo, revelando uma falha considerável neste ponto e levando a que novos colaboradores percam mais tempo na análise do projeto. Contudo, esta falta de comentários ao código é compensada pelo recurso a funções de métrica reduzida (com reduzido número médio de linhas) e a utilização de nomes intuitivos para variáveis e funções, tornando o código mais descritivo e facilitando a sua interpretação. Relativamente à complexidade dos algoritmos utilizados, em geral, não são implementadas operações de cálculo exigente ou complexo, o que melhora a compreensibilidade do projeto.
 
-Desta forma, concluimos que, no que toca à Compreensibilidade, o *Kodi* apresenta resultados satisfatórios, dado que a falha na documentação apropriada do código facilitaria significativamente a contribuição de qualquer colaborador para o projeto.
+Desta forma, concluimos que, no que toca à Compreensibilidade, o *Kodi* apresenta resultados satisfatórios, dado que a presença da documentação apropriada do código facilitaria significativamente a contribuição de qualquer colaborador para o projeto.
 
 #### Heterogeneidade
 
@@ -109,7 +109,7 @@ Os resultados obtidos foram os seguintes:
 
 ![*Coverage* - Image](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/coverage.png)
 
-A partir da imagem, podemos concluir que o *Kodi* apresenta uma má cobertura de testes, tendo apenas 4.1 % de cobertura de linhas e 8.8 % de cobertura de funções, no geral. O ficheiro que apresenta a maior cobertura de testes é o [xbmc/filesystem/test](https://github.com/Pedrock/xbmc/tree/master/xbmc/filesystem/test) com 100% de cobertura de funções e 91.7 % de cobertura de linhas, podendo dizer-se que é uma "exceção à regra" relativamente à percentagem de cobertura dos restantes ficheiros. Isto torna-se compreensivel por ser um ficheiro que está encarregue por testar as funções do pacote *filesystem*, responsável por fornecer as funcionalidades do sistema de arquivos de ficheiros, controlando o armazenamento e os respetivos dados.
+A partir da imagem, podemos concluir que o *Kodi* apresenta uma má cobertura de testes, tendo apenas 4.1 % de cobertura de linhas e 8.8 % de cobertura de funções, no geral. O ficheiro que apresenta a maior cobertura de testes é o [xbmc/filesystem/test](https://github.com/Pedrock/xbmc/tree/master/xbmc/filesystem/test) com 100% de cobertura de linhas, podendo dizer-se que é uma "exceção à regra" relativamente à percentagem de cobertura dos restantes ficheiros. Isto torna-se compreensivel por ser um ficheiro que está encarregue por testar as funções do pacote *filesystem*, responsável por fornecer as funcionalidades do sistema de arquivos de ficheiros, controlando o armazenamento e os respetivos dados.
 
 Apesar do *Kodi* apresentar uma cobertura de testes bastante baixa, existem funcionalidades que não são possiveis testar, como por exemplo a sua *interface* gráfica. O que poderá, de certa forma, atenuar um pouco a sua falta de cobertura.
 
