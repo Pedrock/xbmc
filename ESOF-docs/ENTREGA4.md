@@ -57,7 +57,11 @@ Assim, podemos concluir que o *Kodi* apresenta uma repartição de funcionalidad
 
 #### Compreensibilidade
 
-(The degree to which the component under test is documented or self-explaining.)
+O grau de compreensibilidade de um software pode ter um forte impacto no seu desenvolvimento e manutenção. Para avaliar um determinado projeto, são definidas métricas que permitem registar a qualidade do código, quanto à sua facilidade de interpretação. Nesta secção, avaliaremos o *Kodi* segundo os padrões estabelecidos por essas métricas de compreensibilidade de software.
+
+Começando pela percentagem de comentários em código, o *Kodi* não é o melhor exemplo, revelando uma falha considerável neste ponto e levando a que novos colaboradores percam mais tempo na análise do projeto. Contudo, esta falta de comentários ao código é compensada pelo recurso a funções de métrica reduzida (com reduzido número médio de linhas) e a utilização de nomes intuitivos para variáveis e funções, tornando o código mais descritivo e facilitando a sua interpretação. Relativamente à complexidade dos algoritmos utilizados, em geral, não são implementadas operações de cálculo exigente ou complexo, pelo que a melhora a compreensibilidade do projeto.
+
+Desta forma, concluimos que, no que toca à Compreensibilidade, o *Kodi* apresenta resultados satisfatórios, dado que a falha na documentação apropriada do código facilitaria significativamente a contribuição de qualquer colaborador para o projeto.
 
 #### Heterogeneidade
 
