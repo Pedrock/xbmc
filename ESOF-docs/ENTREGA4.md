@@ -6,12 +6,12 @@
 
 Neste relatório iremos analisar o *Kodi* relativamente à sua validação e verificação de *software*. 
 
-O objectivo da validação e verificação de *software* é assegurar que este cumpre as necessidades dos diferentes *stakeholders*, como os utilizadores finais, os programadores e os gestores de projeto, ou seja, a confirmação de que este cumpre todos os seus requisitos. Enquanto que a verificação envolve a análise do sistema de modo a que este cumpra os seus requisitos funcionais, a validação engloba a confirmação de que o sistema atende as necessidades e expectativas do cliente.
+O objectivo da validação e verificação de *software* é assegurar que este cumpre as necessidades dos diferentes *stakeholders*, como os utilizadores finais, os programadores e os gestores de projeto, ou seja, a confirmação de que este cumpre todos os seus requisitos. Enquanto que a verificação envolve a análise do sistema de modo a que este cumpra os seus requisitos funcionais, a validação engloba a confirmação de que o sistema atende às necessidades e expectativas do cliente.
 Apesar destes dois processos serem diferentes, eles estão intimamente ligados e são bastante dependentes um do outro. 
 
 A validação e verificação de *software* no *Kodi* é feita por *Quality Assurance Testers*. A equipa de segurança de qualidade é uma parte essencial do Kodi para garantir o contínuo sucesso do projecto. Esta é responsável por testar os produtos e investigar possíveis problemas que possam surgir durante este processo. [*Kodi* - *Assurance Testing*](http://kodi.wiki/view/HOW-TO:Help_with_quality_assurance_testing)
 
-Primeiramente iremos abordar o grau de testabilidade do *software*, onde iremos analizar a controlabilidade do estado dos seus componentes, a observabilidade do resultado dos testes, a isolabilidade dos componentes, a separeação de funcionalidades do *software*, a compreensibilidade dos componentes e a heterogeneidade das plataformas usadas. Seguidamente iremos apresentar algumas estatisticas de teste referentes ao seu número e cobertura, e por final, iremos analisar e corrigir um *bug*.
+Primeiramente iremos abordar o grau de testabilidade do *software*, onde iremos analizar a **controlabilidade** do estado dos seus componentes, a **observabilidade** do resultado dos testes, a **isolabilidade** dos componentes, a **separação de funcionalidades do** ***software***, a **compreensibilidade** dos componentes e a **heterogeneidade** das plataformas usadas. Seguidamente iremos apresentar algumas **estatisticas de teste** referentes ao seu número e cobertura, e por final, iremos analisar e **corrigir um** ***bug***.
 
 ### Grau de Testabilidade do Software
 
@@ -90,10 +90,6 @@ O grau em que a utilização de diversas tecnologias exige usar diversos método
 
 
 ### Estatisticas de Teste
-
-( Number of tests (# tests unitários; # tests de sistema, # tests de desempenho, ...)
-     % coverage (given by tools like EclEmma)
-     Code coverage: is it any good? (see http://avandeursen.com/2013/11/19/test-coverage-not-for-managers/) )
      
 Atualmente, o *Kodi* conta com um total de 598 testes, sendo que estes se encontram repartidos por diferentes classes que representam as funcionalidades dos componentes que pretendemos testar, como podemos observar em [*Kodi* - *All Tests*](http://jenkins.kodi.tv/job/TestMulti-All/lastCompletedBuild/testReport/(root)). Ao analisarmos o [histórico de testes do *Kodi*](http://jenkins.kodi.tv/job/TestMulti-All/lastCompletedBuild/testReport/(root)/history/), observamos que o número de testes de *software* diminuiu acentuadamente, e com isto também a durção de execução de todos os testes. Nas imagens a seguir podemos observar o histórico da duração e do número total de testes de *software* do *Kodi*, respetivamente.
 
@@ -101,10 +97,20 @@ Atualmente, o *Kodi* conta com um total de 598 testes, sendo que estes se encont
 
 ![Historico número de testes](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/numero-total-testes-historico.JPG)
 
+Para uma posterior análise de cobertura de testes, compilámos o *Kodi* no ubuntu, seguindo as [intruções de instalação](https://github.com/xbmc/xbmc/blob/master/docs/README.ubuntu). Para obtermos os relatório das linhas de código de cobertura dos testes compilámos o código com as seguintes flags:
+- -ftest-coverage
+- -fprofile-arcs
 
+Seguidamente corremos os testes que, por sua vez geraram vários ficheiros de cobertura por ficheiro. Para processar esses vários ficheiros e agrupá-los num só utilizámos a extenção [lcov](http://ltp.sourceforge.net/coverage/lcov.php) e por último, usámos o [genhtml](http://linux.die.net/man/1/genhtml) para criar vários ficheiros html a partir desse ficheiro de forma a tornar os dados facilmente legíveis.
 
+Os resultados obtidos foram os seguintes:
 
 ![*Coverage* - Image](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/coverage.png)
+
+A partir da imagem, podemos concluir que o *Kodi* apresenta uma má cobertura de testes, tendo apenas 4.1 % de cobertura de linhas e 8.8 % de cobertura de funções, no geral. O ficheiro que apresenta a maior cobertura de testes é o [xbmc/filesystem/test](https://github.com/Pedrock/xbmc/tree/master/xbmc/filesystem/test) com 100% de cobertura de funções e 91.7 % de cobertura de linhas, podendo dizer-se que é uma "exceção à regra" relativamente à percentagem de cobertura dos restantes ficheiros. Isto torna-se compreensivel por ser um ficheiro que está encarregue por testar as funções do pacote *filesystem*, responsável por fornecer as funcionalidades do sistema de arquivos de ficheiros, controlando o armazenamento e os respetivos dados.
+
+Apesar do *Kodi* apresentar uma cobertura de testes bastante baixa, existem funcionalidades que não são possiveis testar, como por exemplo a sua *interface* gráfica. O que poderá, de certa forma, atenuar um pouco a sua falta de cobertura.
+
 
 ### Correção de um *Bug*
 
