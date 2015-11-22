@@ -41,7 +41,7 @@ Visto isto, concluímos que a observabilidade nos diferentes componentes do *Kod
 
 #### Isolabilidade
 
-Devido à complexidade que o *Kodi* apresenta, a maior parte das classes dos diferentes pacotes faz uso de outras classes e métodos pertencentes a outros pacotes, como nos podemos aperceber a partir do diagrama de *packages* ilustrado no [relatório anterior](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/ENTREGA3.md). Estando estas intimamente ligadas e interdependentes. Assim, ao testarmos um componente de um determinado módulo, estamos também a testar, indiretamente, outros componentes de diferentes módulos. 
+Devido à complexidade que o *Kodi* apresenta, a maior parte das classes dos diferentes pacotes sob teste faz uso de outras classes e métodos pertencentes a outros pacotes. Estando estas intimamente ligadas e interdependentes. Assim, ao testarmos um componente de um determinado módulo, estamos também a testar, indiretamente, outros componentes de diferentes módulos. 
 
 No entanto, existem casos em que a isolabilidade dos módulos testados é melhorada por [objectos *mocks*](https://pt.wikipedia.org/wiki/Objeto_Mock), que basicamente são "falsos" objectos que simulam o comportamento de uma classe ou objeto “real” para que possamos focar o teste no componente a ser testado. Um exemplo do uso de objectos *mocks* é a classe [gtest-spi.h](https://github.com/Pedrock/xbmc/blob/master/lib/gtest/include/gtest/gtest-spi.h), que tem como objectivo testar a ferramente de teste.
 
