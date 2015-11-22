@@ -134,6 +134,10 @@ Alterámos o código de forma a usar inteiros de 64 bits onde necessário. Ou se
 
 Com a nossa correção e a configuração anteriormente referida, o Kodi nunca crashou com os vários ficheiros e streams que reproduzimos. 
 
+Para além disto, também corremos os testes unitários do projeto e todos passaram com sucesso:
+
+![Testes](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/tests.jpg)
+
 ### Análise Crítica
 
 Após a detalhada análise ao *Kodi* presente neste relatório, podemos afirmar que existem algumas falhas relativamente às componentes de validação e verificação ao longo do seu desenvolvimento, mas que estas são atenuadas pelos pontos positivos acima referidos.
