@@ -92,7 +92,7 @@ Visto isto, o *bot* de compilação que o *Kodi* utiliza é de extrema importân
 
 ### Estatisticas de Teste
      
-Atualmente, o *Kodi* conta com um total de 598 testes, sendo que estes se encontram repartidos por diferentes classes que representam as funcionalidades dos componentes que pretendemos testar, como podemos observar em [*Kodi* - *All Tests*](http://jenkins.kodi.tv/job/TestMulti-All/lastCompletedBuild/testReport/(root)). Ao analisarmos o [histórico de testes do *Kodi*](http://jenkins.kodi.tv/job/TestMulti-All/lastCompletedBuild/testReport/(root)/history/), observamos que o número de testes de *software* diminuiu acentuadamente, e com isto também a durção de execução de todos os testes. Nos gráficos a seguir podemos observar o histórico da duração e do número total de testes de *software* do *Kodi*, respetivamente.
+Atualmente, o *Kodi* conta com um total de 598 testes unitários, sendo que estes se encontram repartidos por diferentes classes que representam as funcionalidades dos componentes que pretendemos testar, como podemos observar em [*Kodi* - *All Tests*](http://jenkins.kodi.tv/job/TestMulti-All/lastCompletedBuild/testReport/(root)). Ao analisarmos o [histórico de testes do *Kodi*](http://jenkins.kodi.tv/job/TestMulti-All/lastCompletedBuild/testReport/(root)/history/), observamos que o número de testes de *software* diminuiu acentuadamente, e com isto também a durção de execução de todos os testes. Nos gráficos a seguir podemos observar o histórico da duração e do número total de testes de *software* do *Kodi*, respetivamente.
 
 ![Historico duração dos testes](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/dura%C3%A7%C3%A3o-hist%C3%B3rico-testes.JPG)
 
