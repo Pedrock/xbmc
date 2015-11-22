@@ -83,13 +83,11 @@ Para além destas, são também utilizadas outras tecnologias responsáveis pela
 * libjpeg-dev 
 
 
-Devido à sua multiplicidade, este deveria apresentar uma elevada *coverage* de testes nas suas diferentes tecnologias, de modo a suportar uma correcta implementação em todas, o que não é o caso, como podemos observar no tópico seguinte.
+Devido à sua multiplicidade, este deveria apresentar uma elevada cobertura de testes nas suas diferentes tecnologias, de modo a suportar uma correcta implementação em todas e aumentar o grau de confiabilidade das mesmas, o que não é o caso, como podemos observar no tópico seguinte.
 
 No *core* do projeto, são usados motores de áudio, *video renderers* e bibliotecas que atuam sobre DVD´s que não se encontram devidamente testadas. Com isto, o *Kodi* pode sofrer retrocessos na implementação de novas funcionalidades, porque nao havendo testes nestas zonas, facilmente se podem gerar *bugs* que não são facilmente observáveis durante a execução do programa. Deste modo, o custo de esforço e tempo para uma posterior resolução pode aumentar exponencialmente.
 
 Visto isto, o *bot* de compilação que o *Kodi* utiliza é de extrema importância para o projeto. Como já dito anteriormente, este *bot* permite verificar a compilação do código de um *pull request* antes da realização de um *merge*. Assim, permite que o código do *Kodi* não fique incompilável.
-
-Apesar de utilizar um *bot*, o *Kodi* apresenta reduzido número de testes unitários e de outros métedos de teste. Devido à grandeza do projeto, deveria apresentar maior número de  testes ao longo da sua implementação. Isto tornaria mais fácil a implementação de novas funcionalidades e correcção de bugs. Assim, a longo prazo, o projeto pode ter bastantes dificuldades em progredir.
 
 
 ### Estatisticas de Teste
@@ -121,8 +119,8 @@ Apesar do *Kodi* apresentar uma cobertura de testes bastante baixa, existem func
 
 ### Análise Crítica
 
-Após a detalhada análise ao *Kodi* presente neste relatório, podemos afirmar que as componentes de validação e verificação não foram geridas apropriadamente ao longo do seu desenvolvimento.
+Após a detalhada análise ao *Kodi* presente neste relatório, podemos afirmar que existem algumas falhas relativamente às componentes de validação e verificação ao longo do seu desenvolvimento.
 
-Apresentando um grau de isolabilidade relativamente reduzido, uma percentagem de cobertura de testes insatisfatória e uma pobre quantidade de documentação do código, inviabiliza-se o potencial da fácil implementação de novas funcionalidades que a equipa do *Kodi* teve na estruturação do código, como analisada no [relatório anterior](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/ENTREGA3.md). Por estes motivos, torna-se significativamente complicada a análise e correção de bugs no projeto, sendo necessárias diversas horas de investigação e adaptação ao respetivo código.
+Apresentando um grau de isolabilidade relativamente reduzido, uma percentagem de cobertura de testes aquém do esperado e uma quantidade de documentação de código que poderia ser melhorada, torna-se mais difícil assegurar uma fácil implementação de novas funcionalidades, contráriamente ao que acontece na estruturação do código, como analisada no [relatório anterior](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/ENTREGA3.md). Por estes motivos, torna-se mais complicada a análise e correção de bugs no projeto, sendo necessárias diversas horas de investigação para compreeensão do respetivo código.
 
-Destaca-se, no entanto, a adoção de tecnologias de teste como o **BuildBot Jenkins** que permitem alguma robustez na validação e verificação do produto, no momento de submissão de melhorias introduzidas pelos colaboradores.
+Destaca-se, no entanto, a adoção de tecnologias de teste como o ***BuildBot Jenkins*** que permitem alguma robustez na validação e verificação do produto, no momento de submissão de melhorias introduzidas pelos colaboradores.
