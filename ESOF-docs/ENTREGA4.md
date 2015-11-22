@@ -81,7 +81,6 @@ Para além destas, são também utilizadas outras tecnologias responsáveis pela
 * libmpeg2-4-dev
 * libjasper-dev
 * libjpeg-dev 
-* ...
 
 
 Devido à sua multiplicidade, este deveria apresentar uma elevada *coverage* de testes nas suas diferentes tecnologias, de modo a suportar uma correcta implementação em todas, o que não é o caso, como podemos observar no tópico seguinte.
