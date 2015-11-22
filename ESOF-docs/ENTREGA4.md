@@ -130,9 +130,9 @@ Para reproduzir o bug, criámos o ficheiro de configuração advancedsettings.xm
 
 Com esta configuração observámos que ao abrir algum ficheiro ou fonte de media o Kodi crashava, pois este valor provocava overflow. 
 
-Alterámos o código de forma a usar inteiros de 64 bits onde necessário. Ou seja, o limite do buffer passou de 4 Gb ((2^32)/(1024)^3) para 17179869184 Gb ((2^64)/(1024)^3).
+[Alterámos o código](https://github.com/Pedrock/xbmc/commit/cf83f6717290c15efd556e30c8be665a48ba3ef3) de forma a usar inteiros de 64 bits onde necessário. Ou seja, o limite do buffer passou de 4 Gb ((2^32)/(1024)^3) para 17179869184 Gb ((2^64)/(1024)^3).
 
-Com a nossa correção e a configuração anteriormente referida, o Kodi nunca crashou com os vários ficheiros e streams que reproduzimos. 
+[Com a nossa correção](https://github.com/Pedrock/xbmc/commit/cf83f6717290c15efd556e30c8be665a48ba3ef3) e a configuração anteriormente referida, o Kodi nunca crashou com os vários ficheiros e streams que reproduzimos. 
 
 Para além disto, também corremos os testes unitários do projeto e todos passaram com sucesso:
 
