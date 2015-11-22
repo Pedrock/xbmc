@@ -89,6 +89,8 @@ No *core* do projeto, são usados motores de áudio, *video renderers* e bibliot
 
 Visto isto, o *bot* de compilação que o *Kodi* utiliza é de extrema importância para o projeto. Como já dito anteriormente, este *bot* permite verificar a compilação do código de um *pull request* antes da realização de um *merge*. Assim, permite que o código do *Kodi* não fique incompilável.
 
+Apesar de utilizar um *bot*, o *Kodi* apresenta reduzido número de testes unitários e de outros métedos de teste. Devido à grandeza do projeto, deveria apresentar maior número de  testes ao longo da sua implementação. Isto tornaria mais fácil a implementação de novas funcionalidades e correcção de bugs. Assim, a longo prazo, o projeto pode ter bastantes dificuldades em progredir.
+
 
 ### Estatisticas de Teste
      
