@@ -115,7 +115,24 @@ Apesar do *Kodi* apresentar uma cobertura de testes bastante baixa, existem func
 
 ### Correção de um *Bug*
 
-([Opcional] Take a bug report, create test cases to reproduce it, and fix it, eventually using automated software fault diagnosis techniques. (grade >18) )
+Optámos por corrigir o bug reportado no [ticket #16385](http://trac.kodi.tv/ticket/16385). O buffer máximo permitido pelo Kodi era o valor máximo de um inteiro de 32 bits (unsigned int).
+
+Para reproduzir o bug, criámos o ficheiro de configuração advancedsettings.xml com o seguinte conteúdo:
+```
+<advancedsettings>
+  <network>
+    <buffermode>1</buffermode>
+    <readbufferfactor>3</readbufferfactor>
+    <cachemembuffersize>4294967297</cachemembuffersize>
+  </network>
+</advancedsettings>
+```
+
+Com esta configuração observámos que ao abrir algum ficheiro ou fonte de media o Kodi crashava, pois este valor provocava overflow. 
+
+Alterámos o código de forma a usar inteiros de 64 bits onde necessário. Ou seja, o limite do buffer passou de 4 Gb ((2^32)/(1024)^3) para 17179869184 Gb ((2^64)/(1024)^3).
+
+Com a nossa correção e a configuração anteriormente referida, o Kodi nunca crashou com os vários ficheiros e streams que reproduzimos. 
 
 ### Análise Crítica
 
