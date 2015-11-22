@@ -119,8 +119,8 @@ Apesar do *Kodi* apresentar uma cobertura de testes bastante baixa, existem func
 
 ### Análise Crítica
 
-Após a detalhada análise ao *Kodi* presente neste relatório, podemos afirmar que existem algumas falhas relativamente às componentes de validação e verificação ao longo do seu desenvolvimento.
+Após a detalhada análise ao *Kodi* presente neste relatório, podemos afirmar que existem algumas falhas relativamente às componentes de validação e verificação ao longo do seu desenvolvimento, mas que estas são atenuadas pelos pontos positivos acima referidos.
 
-Apresentando um grau de isolabilidade relativamente reduzido, uma percentagem de cobertura de testes aquém do esperado e uma quantidade de documentação de código que poderia ser melhorada, torna-se mais difícil assegurar uma fácil implementação de novas funcionalidades, contráriamente ao que acontece na estruturação do código, como analisada no [relatório anterior](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/ENTREGA3.md). Por estes motivos, torna-se mais complicada a análise e correção de bugs no projeto, sendo necessárias diversas horas de investigação para compreeensão do respetivo código.
+Apresentando um grau de isolabilidade relativamente reduzido e uma percentagem de cobertura de testes aquém do esperado, torna-se mais difícil assegurar uma fácil implementação de novas funcionalidades. No entanto, o *Kofi* compensa com um nível elevado de controlabilidade, informação esclarecedora relativa a testes e correção de *bugs*, uma boa divisão de responsabilidades entre os seus diferentes componentes e uma documentação de código apropriada. O que permite um boa compreensão do respectivo código e posterior contribuição.
 
-Destaca-se, no entanto, a adoção de tecnologias de teste como o ***BuildBot Jenkins*** que permitem alguma robustez na validação e verificação do produto, no momento de submissão de melhorias introduzidas pelos colaboradores.
+Para além disto, destaca-se a adoção de tecnologias de teste como o ***BuildBot Jenkins*** que permitem robustez na validação e verificação do produto, no momento de submissão de melhorias introduzidas pelos colaboradores.
