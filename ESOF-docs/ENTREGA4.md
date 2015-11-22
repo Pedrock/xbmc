@@ -31,11 +31,11 @@ O *Kodi* utiliza usa o [*buildbot Jenkins*](http://jenkins.kodi.tv/) como ferram
 
 Assim, a partir da [página de testes](http://jenkins.kodi.tv/view/All/job/TestMulti-All/lastCompletedBuild/testReport/(root)) do *media center* podemos ver o número total de testes e a sua distribuição numérica por ficheiro/classe de testes. Por cada classe temos ainda o número de testes que falharam, aqueles que foram saltados, os que passaram e a duração do tempo de execução de todos os seus testes no geral e também individualmente. Um dos possivies exemplos é a classe [*TestFileUtils*](http://jenkins.kodi.tv/view/All/job/TestMulti-All/lastCompletedBuild/testReport/(root)/TestFileUtils/) que tem duas funções de teste, cada uma com tempo de duração diferente. Para além do tempo de duração, cada caso de teste apresenta informação acerca do histórico do resultado desse teste (duração e resultado), como é possivel ver num dos casos de teste da classe referida anteriormente, a função [*DeleteItemString*](http://jenkins.kodi.tv/view/All/job/TestMulti-All/lastCompletedBuild/testReport/(root)/TestFileUtils/DeleteItemString/history/).
 
-Para além do descrito no parágrafo anterior, é ainda possivel observar no *output* dos resultados dos testes na consola, para cada [plataforma](http://jenkins.kodi.tv/job/TestMulti-All/), várias informações acerca dos mesmos. Como é o caso do [*Windows*](http://jenkins.kodi.tv/job/WIN-32/6752/console), em nos resultados do último *build* de testes passaram 475 dos 476 testes existentes na altura.
+Para além do descrito no parágrafo anterior, é ainda possivel observar no *output* dos resultados dos testes na consola, para cada [plataforma](http://jenkins.kodi.tv/job/TestMulti-All/), várias informações acerca dos mesmos. Como é o caso do [*Windows*](http://jenkins.kodi.tv/job/WIN-32/6752/console), nos resultados do último *build* de testes passaram 475 dos 476 testes existentes na altura.
 
 ![Kodi - Image](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/resultado_WIN-32.JPG)
 
-Para além de toda a informação referida anteriormene, aquando de algum erro podemos ver os detalhes e o *Stack Trace* do mesmo, como é exemplo o [erro referido no parágrafo anterior](http://jenkins.kodi.tv/job/WIN-32/6752/testReport/).
+Para além de toda a informação referida anteriormente, aquando de algum erro podemos ver os detalhes e o *Stack Trace* do mesmo, como é exemplo o [erro referido no parágrafo anterior](http://jenkins.kodi.tv/job/WIN-32/6752/testReport/).
 
 Visto isto, concluímos que a observabilidade nos diferentes componentes do *Kodi* é bastante boa, facultando a informação necessária para a localização e resolução do erro.
 
@@ -92,7 +92,7 @@ Visto isto, o *bot* de compilação que o *Kodi* utiliza é de extrema importân
 
 ### Estatisticas de Teste
      
-Atualmente, o *Kodi* conta com um total de 598 testes unitários, sendo que estes se encontram repartidos por diferentes classes que representam as funcionalidades dos componentes que pretendemos testar, como podemos observar em [*Kodi* - *All Tests*](http://jenkins.kodi.tv/job/TestMulti-All/lastCompletedBuild/testReport/(root)). Ao analisarmos o [histórico de testes do *Kodi*](http://jenkins.kodi.tv/job/TestMulti-All/lastCompletedBuild/testReport/(root)/history/), observamos que o número de testes de *software* diminuiu acentuadamente, e com isto também a durção de execução de todos os testes. Nos gráficos a seguir podemos observar o histórico da duração e do número total de testes de *software* do *Kodi*, respetivamente.
+Atualmente, o *Kodi* conta com um total de 598 testes unitários, sendo que estes se encontram repartidos por diferentes classes que representam as funcionalidades dos componentes que pretendemos testar, como podemos observar em [*Kodi* - *All Tests*](http://jenkins.kodi.tv/job/TestMulti-All/lastCompletedBuild/testReport/(root)). Ao analisarmos o [histórico de testes do *Kodi*](http://jenkins.kodi.tv/job/TestMulti-All/lastCompletedBuild/testReport/(root)/history/), observamos que o número de testes de *software* diminuiu acentuadamente, e com isto também a duração de execução de todos os testes. Nos gráficos a seguir podemos observar o histórico da duração e do número total de testes de *software* do *Kodi*, respetivamente.
 
 ![Historico duração dos testes](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/dura%C3%A7%C3%A3o-hist%C3%B3rico-testes.JPG)
 
@@ -118,3 +118,9 @@ Apesar do *Kodi* apresentar uma cobertura de testes bastante baixa, existem func
 ([Opcional] Take a bug report, create test cases to reproduce it, and fix it, eventually using automated software fault diagnosis techniques. (grade >18) )
 
 ### Análise Crítica
+
+Após a detalhada análise ao *Kodi* presente neste relatório, podemos afirmar que as componentes de validação e verificação não foram geridas apropriadamente ao longo do seu desenvolvimento.
+
+Apresentando um grau de isolabilidade relativamente reduzido, uma percentagem de cobertura de testes insatisfatória e uma pobre quantidade de documentação do código, inviabiliza-se o potencial da fácil implementação de novas funcionalidades que a equipa do *Kodi* teve na estruturação do código, como analisada no [relatório anterior](https://github.com/Pedrock/xbmc/ESOF-docs/ENTREGA3.md). Por estes motivos, torna-se significativamente complicada a análise e correção de bugs no projeto, sendo necessárias diversas horas de investigação e adaptação ao respetivo código.
+
+Destaca-se, no entanto, a adoção de tecnologias de teste como o **BuildBot Jenkins** que permitem alguma robustez na validação e verificação do produto, no momento de submissão de melhorias introduzidas pelos colaboradores.
