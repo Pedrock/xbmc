@@ -69,7 +69,9 @@ Desta forma, concluimos que, no que toca à Compreensibilidade, o *Kodi* apresen
 
 Com a crescente expansão de um projecto e o uso de novas tecnologias cresce também a necessidade de métodos de teste diversificados de modo a que estes consigam abranger as diversas tecnologias utilizadas.
 
-O *Kodi*, devido ao número de funcionalidades e tecnologias implementadas é bastante complexo, apresentando assim uma grande heterogeneidade. Este utiliza várias tecnologias externas que lhe permitem compilar o projeto.  As principais bibliotecas e tecnologias são:
+O *Kodi*, devido ao número de funcionalidades e tecnologias implementadas é bastante complexo, apresentando assim uma grande heterogeneidade. As informações relativas às dependencias utilizadas, consoante a plataforma em uso, encontram-se listadas na pasta [docs](https://github.com/Pedrock/xbmc/tree/master/docs) do projecto.
+
+Como podemos constatar a partir dos ficheiros referenciados acima, o *Kodi* utiliza várias tecnologias externas que lhe permitem compilar o projeto. As principais bibliotecas e tecnologias utilizadas para o efeito são:
 * [Cmake](https://cmake.org/) - sistema multiplataforma de geração automática (arquivos do tipo *makefile*).
 * [NSIS](http://nsis.sourceforge.net/Main_Page) - sistema *open source* que permite criar instaladores do *Windows*.
 * [Buildbot Jenkins](http://jenkins.kodi.tv/) - Bot que permite compilar e testar código.
@@ -84,14 +86,14 @@ Para além destas, são também utilizadas outras tecnologias responsáveis pela
 
 Devido à sua multiplicidade, este deveria apresentar uma elevada *coverage* de testes nas suas diferentes tecnologias, de modo a suportar uma correcta implementação em todas, o que não é o caso, como podemos observar no tópico seguinte.
 
-No *core* do projeto, são usados motores de áudio, *video renderers* e bibliotecas que atuam sobre DVD´s que não se encontram devidamente testadas. Com isto, o *Kodi* pode sofrer retrocessos na implementação de novas funcionalidades porque nao havendo testes nestas zonas, facilmente se podem gerar *bugs* que não são facilmente observáveis durante a execução do programa. Deste modo, o custo de esforço e tempo para uma posterior resolução pode aumentar exponencialmente.
+No *core* do projeto, são usados motores de áudio, *video renderers* e bibliotecas que atuam sobre DVD´s que não se encontram devidamente testadas. Com isto, o *Kodi* pode sofrer retrocessos na implementação de novas funcionalidades, porque nao havendo testes nestas zonas, facilmente se podem gerar *bugs* que não são facilmente observáveis durante a execução do programa. Deste modo, o custo de esforço e tempo para uma posterior resolução pode aumentar exponencialmente.
 
-O *bot* de compilação que o *Kodi* utiliza é de extrema importância para o projeto. Como já dito anteriormente, este *bot* permite verificar a compilação do código de um *pull request* antes da realização de um *merge*. Assim, permite que o código do *Kodi* não fique incompilável.
+Visto isto, o *bot* de compilação que o *Kodi* utiliza é de extrema importância para o projeto. Como já dito anteriormente, este *bot* permite verificar a compilação do código de um *pull request* antes da realização de um *merge*. Assim, permite que o código do *Kodi* não fique incompilável.
 
 
 ### Estatisticas de Teste
      
-Atualmente, o *Kodi* conta com um total de 598 testes, sendo que estes se encontram repartidos por diferentes classes que representam as funcionalidades dos componentes que pretendemos testar, como podemos observar em [*Kodi* - *All Tests*](http://jenkins.kodi.tv/job/TestMulti-All/lastCompletedBuild/testReport/(root)). Ao analisarmos o [histórico de testes do *Kodi*](http://jenkins.kodi.tv/job/TestMulti-All/lastCompletedBuild/testReport/(root)/history/), observamos que o número de testes de *software* diminuiu acentuadamente, e com isto também a durção de execução de todos os testes. Nas imagens a seguir podemos observar o histórico da duração e do número total de testes de *software* do *Kodi*, respetivamente.
+Atualmente, o *Kodi* conta com um total de 598 testes, sendo que estes se encontram repartidos por diferentes classes que representam as funcionalidades dos componentes que pretendemos testar, como podemos observar em [*Kodi* - *All Tests*](http://jenkins.kodi.tv/job/TestMulti-All/lastCompletedBuild/testReport/(root)). Ao analisarmos o [histórico de testes do *Kodi*](http://jenkins.kodi.tv/job/TestMulti-All/lastCompletedBuild/testReport/(root)/history/), observamos que o número de testes de *software* diminuiu acentuadamente, e com isto também a durção de execução de todos os testes. Nos gráficos a seguir podemos observar o histórico da duração e do número total de testes de *software* do *Kodi*, respetivamente.
 
 ![Historico duração dos testes](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/dura%C3%A7%C3%A3o-hist%C3%B3rico-testes.JPG)
 
