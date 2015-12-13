@@ -6,7 +6,7 @@
 
 Neste relatório iremos analisar o *Kodi* relativamente à evolução do seu *software*. 
 
-Para finalisação do projeto desenvolvido no âmbito de Engenharia de Sotware, foi-nos pedido a implementação ou melhoria de uma funcionalidade. Para isto, os autores deste relatório começaram por identificar a nova funcionalidade a desenvolver e posteriormente, a sua implementação.
+Para a finalização do projeto desenvolvido no âmbito de Engenharia de Sotware, foi-nos pedido a implementação ou melhoria de uma funcionalidade. Para isto, os autores deste relatório começaram por identificar a nova funcionalidade a desenvolver e posteriormente, a sua implementação.
 Neste relatório será apresentada a nova funcionalidade implementada bem como algumas considerações finais acerca do *Kodi*.
 
 ### Identificação da Funcionalidade
@@ -28,7 +28,7 @@ Abaixo mostramos duas imagens do resultado da nossa implementação:
 - Adicionámos a escolha do novo tipo de ordenação em **GUIViewStateVideo**;
 - Adicionámos a nova ordenação em **SortUtils**;
 - Adicionámos a indicação do número de filmes de cada autor aquando da utilização da nova ordenação em **LabelFormatter**;
-- Adicionámos a string para a nova ordenação em **resource.language.en_gb**.
+- Adicionámos a *string* para a nova ordenação em **resource.language.en_gb**.
 
 #### Submissão de um Pull Request
 
@@ -40,6 +40,6 @@ Obtemos algumas críticas/sugestões por parte da equipa do *Kodi* e procedemos 
 
 A implementação deste funcionalidade, apesar de parecer simples à primeira vista, revelou-se complexa devido à extensão do código do *Kodi*, o que tornou a procura pelos componentes relacionados com a *feature* demorosa. O *Kodi*, devido à sua enorme estrutura e quantidade de código, assim como ao seu baixo grau de isolabilidade, torna difícil a tarefa dos colaboradores, pois estes necessitam de conhecer bem o projecto de forma a tornar produtiva a elaboração de código. 
 
-Outro dos problemas que tivemos, já referido no relatório anterior, foi o facto de não termos conseguido compilar o código em *Windows*, devido a diversas dependências, o que fez com que tivessemos que usar *Ubuntu* para o efeito. Isto tornou o processo ainda mais demoroso, pois as ferramentas existentes em *Linux* não são tão poderosas como o *Visual Studio* em *Windows*. Por este motivo, analisámos o código em *Windows* e procedemos à alteração em *Linux*.
+Outro dos problemas que tivemos, já referido no relatório anterior, foi o facto de não termos conseguido compilar o código em *Windows*, devido a diversas dependências, o que fez com que tivéssemos que usar *Ubuntu* para o efeito. Isto tornou o processo ainda mais demoroso, pois as ferramentas existentes em *Linux* não são tão poderosas como o *Visual Studio* em *Windows*. Por este motivo, analisámos o código em *Windows* e procedemos à alteração em *Linux*.
 
 No entanto, este apresenta grande potencial devido a ser um projeto *open-source* e suportar diferentes plataformas. Encontra-se constantemente em desenvolvimento e qualquer pessoa que tenha interesse e motivação pode contribuir de acordo com as suas competências.
