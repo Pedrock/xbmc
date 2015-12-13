@@ -34,7 +34,7 @@ Abaixo mostramos duas imagens do resultado da nossa implementação:
 
 Depois da implementação da nova funcionalidade, foi [submetido um *pull request*](https://github.com/xbmc/xbmc/pull/8576) para que seja possível a integração da nova funcionalidade no projeto.
 
-Obtemos algumas críticas/sugestões por parte da equipa do *Kodi* e procedemos à alteração do código de forma a cumprir com o pedido.
+Obtivemos algumas críticas/sugestões por parte da equipa do *Kodi* e procedemos à alteração do código de forma a cumprir com o pedido.
 
 #### Análise Crítica
 
