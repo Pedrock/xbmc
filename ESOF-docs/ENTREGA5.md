@@ -16,6 +16,11 @@ Quer as novas *features* quer os *issues* são descobertos e tratados pelos cola
 
 Tivemos que alterar vários ficheiros para implementar a funcionalidade. As alterações podem ser vistas nos [ficheiros alterados do pull request](https://github.com/xbmc/xbmc/pull/8576/files).
 
+Abaixo mostramos duas imagens do resultado da nossa implementação:
+
+![Sort By Number Of Movies](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/sort-by-number-of-movies.jpg)
+
+![Sorted Actors](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/Images/sorted-actors.jpg)
 
 #### Identificação dos Componentes que Implementam a Funcionalidade
 
