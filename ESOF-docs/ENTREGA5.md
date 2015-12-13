@@ -1,30 +1,31 @@
-# RelatÛrio ESOF - 5
+# Relat√≥rio ESOF - 5
 
-## *Kodi* - EvoluÁ„o do Software
+## *Kodi* - Evolu√ß√£o do Software
 
-### IntroduÁ„o
+### Introdu√ß√£o
 
-Neste relatÛrio iremos analisar o *Kodi* relativamente ‡ evoluÁ„o do seu *software*. 
+Neste relat√≥rio iremos analisar o *Kodi* relativamente √† evolu√ß√£o do seu *software*. 
 
-Como final do projetodesenvolvido no ‚mbito de Engenharia de Sotware, foi-nos pedido que fosse implementada uma nova funcionalidade ou ent„o uma melhoria do projeto. Para isto, os autores deste relatÛrio comeÁaram por identificar a nova funcionalidade a implementar e posteriormente a sua implementaÁ„o.
-Neste relatÛrio, ser· apresentada a nova funcionalidade implementada bem como algumas consideraÁıes finais acerca do *Kodi*.
+Para finalisa√ß√£o do projeto desenvolvido no √¢mbito de Engenharia de Sotware, foi-nos pedido a implementa√ß√£o ou melhoria de uma funcionalidade. Para isto, os autores deste relat√≥rio come√ßaram por identificar a nova funcionalidade a desenvolver e posteriormente, a sua implementa√ß√£o.
+Neste relat√≥rio, ser√° apresentada a nova funcionalidade implementada bem como algumas considera√ß√µes finais acerca do *Kodi*.
 
-### IdentificaÁ„o da Funcionalidade
+### Identifica√ß√£o da Funcionalidade
 
-O *Kodi* apresenta uma vasta lista de [*issues*](http://trac.kodi.tv/report) a serem corrigidas e novas [*features*](http://forum.kodi.tv/forumdisplay.php?fid=9) a serem implementadas.
-Quer as novas *features* quer os *issues* s„o sustentados pelos colaborados e pelos prÛprios utilizadores do *Kodi* como j· referido em [relatÛrios anteriores](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/ENTREGA2.md). ApÛs uma an·lise destas duas listas, o nosso grupo decidiu implementar uma nova funcionalidade que tem por base a seguinte [*thread*](http://forum.kodi.tv/showthread.php?tid=238563) do fÛrum do *Kodi*. Esta funcionalidade pretende organizar o actor de acordo com o n˙mero de filmes presentes na biblioteca.
+O *Kodi* apresenta uma vasta lista de [*issues*](http://trac.kodi.tv/report) √† espera de serem corrigidos, assim como novas [*features*](http://forum.kodi.tv/forumdisplay.php?fid=9) a serem implementadas.
+Quer as novas *features* quer os *issues* s√£o descobertos pelos colaborados e pelos pr√≥prios utilizadores do *Kodi*, como j√° referido em [relat√≥rios anteriores](https://github.com/Pedrock/xbmc/blob/master/ESOF-docs/ENTREGA2.md). Ap√≥s uma an√°lise destas duas listas, o decidimos implementar uma nova funcionalidade que tem por base a seguinte [*thread*](http://forum.kodi.tv/showthread.php?tid=238563) do f√≥rum do *Kodi*. Esta funcionalidade pretende organizar o actor de acordo com o n√∫mero de filmes presentes na biblioteca.
 
 
 
-#### IdentificaÁ„o dos Componentes que Implementam a Funcionalidade
+#### Identifica√ß√£o dos Componentes que Implementam a Funcionalidade
 
-#### Submiss„o de um Pull Request
+#### Submiss√£o de um Pull Request
 
-Depois da implementaÁ„o da nova funcionalidade, foi [submetido um *pull request*](https://github.com/xbmc/xbmc/pull/8576) para que seja possÌvel a integraÁ„o da nova funcionalidade no projeto.
+Depois da implementa√ß√£o da nova funcionalidade, foi [submetido um *pull request*](https://github.com/xbmc/xbmc/pull/8576) para que seja poss√≠vel a integra√ß√£o da nova funcionalidade no projeto.
 
-#### An·lise CrÌtica
+#### An√°lise Cr√≠tica
 
-A implementaÁ„o deste funcionalidade, apesar de parecer bastante simples, È no entado bastante complexa devido ‡ complexidade do *Kodi*.
-O *Kodi* devido ‡ sua enorme estrutura e quantidade de cÛdigo presente, torna exageradamente difÌcil a tarefa dos colaboradores pois tÍm de estar muito atualizado e conhecer o projeto extremamente bem. Como faz uso de v·rias tecnologias de ponta referidas em relatÛrios anteriores, tem o cÛdigo bastante disperso e em ficheiros tambÈm eles dispersos. Apesar de isto conferir uma boa estrutura ao projeto torna bastante difÌcil a tarefa de desenvolver o *Kodi* de uma forma r·pida e eficiente.
+A implementa√ß√£o deste funcionalidade, apesar de parecer simples √† primeira vista, revelou-se complexa devido √† extens√£o em termos de c√≥digo do *Kodi*, o que tornou a procura pelos componentes relacionados com a *feature* demorosa.
 
-O *Kodi* apresenta grande potencial devido a ser um projeto *open-source* e suportar diferentes plataformas,encontra-se constantemente em desenvolvimento e qualquer pessoa que tenha interesse e motivaÁ„o pode contribuir de acordo com as suas competÍncias.
+O *Kodi*, devido √† sua enorme estrutura e quantidade de c√≥digo presente, assim como ao seu baixo grau de Isolabilidade, torna dif√≠cil a tarefa dos colaboradores, pois estes necessitam de conhecer bem o projecto para tornar produtiva a elabora√ß√£o de c√≥digo em rela√ß√£o ao tempo gasto. 
+
+O *Kodi* apresenta grande potencial devido a ser um projeto *open-source* e suportar diferentes plataformas,encontra-se constantemente em desenvolvimento e qualquer pessoa que tenha interesse e motiva√ß√£o pode contribuir de acordo com as suas compet√™ncias.
