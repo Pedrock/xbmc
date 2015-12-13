@@ -24,11 +24,11 @@ Abaixo mostramos duas imagens do resultado da nossa implementação:
 
 #### Identificação dos Componentes que Implementam a Funcionalidade
 
-- Incluímos o novo campo de número de autores em **VideoDatabase**, **DatabaseUtils** e **VideoInfoTag**;
-- Adicionamos o novo tipo de ordenação em **GUIViewStateVideo**;
-- Adicionamos a nova ordenação em **SortUtils**;
-- Adicionamos a indicação do número de filmes de cada autor aquando da utilização da nova ordenação em **LabelFormatter**;
-- Adicionamos a string para a nova ordenação em **resource.language.en_gb**.
+- Incluímos o novo campo de número de filmes em **VideoDatabase**, **DatabaseUtils** e **VideoInfoTag**;
+- Adicionámos a escolha do novo tipo de ordenação em **GUIViewStateVideo**;
+- Adicionámos a nova ordenação em **SortUtils**;
+- Adicionámos a indicação do número de filmes de cada autor aquando da utilização da nova ordenação em **LabelFormatter**;
+- Adicionámos a string para a nova ordenação em **resource.language.en_gb**.
 
 #### Submissão de um Pull Request
 
